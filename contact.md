@@ -20,7 +20,7 @@ Contact us to learn more about the project, special pricing opportunities, and h
   </div>
   <div class="col-md-8">
     <h3>Send a message</h3>
-    <form action="https://formspree.io/kevin@sandcastle.co" method="POST">
+    <form action="https://formspree.io/gb@gb-re.com" method="POST">
       <input class="gotcha" type="text" name="_gotcha">
       <input type="hidden" name="_next" value="http://whitneypark.com/thank-you">
       <!-- all your input fields here.... -->
