@@ -1,0 +1,14 @@
+- name: New Retail Development
+  description: "Main St & Lime Kiln Rd • Green Bay, WI"
+  link: /documents/Site-Prospectus-Main-Lime-Kiln.pdf
+  image: project-1.jpg
+
+- name: New Retail Development
+  description: "NEC Main Ave & I-41 • De Pere, WI"
+  link: /documents/Site-Prospectus-I-41-Main.pdf
+  image: project-2.jpg
+
+- name: Whitney Park Town Homes
+  description: "Green Bay, WI"
+  link: http://whitneypark.com
+  image: whitney-park.jpg
