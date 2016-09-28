@@ -206,6 +206,14 @@ main {
 }
 
 /*
+ * Form
+ */
+
+.gotcha {
+  display: none;
+}
+
+/*
  * Footer
  */
 
