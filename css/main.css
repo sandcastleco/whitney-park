@@ -19,11 +19,6 @@ img {
   height: auto;
   margin-bottom: 1rem;
 }
-.card {
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  border: 3px solid #FFF;
-}
 @media (min-width: 768px) {
   img {
     margin-bottom: 0;
@@ -204,8 +199,10 @@ main {
  * Card
  */
 
-.card h2 {
-  margin-top: 0;
+.card {
+ margin-top: 2rem;
+ margin-bottom: 1.5rem;
+ border: 3px solid #FFF;
 }
 
 /*
