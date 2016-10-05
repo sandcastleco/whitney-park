@@ -22,7 +22,7 @@
 
     mail($to, $subject, $message, $headers);
 
-    echo "Hi " . $_POST["name"] . " (" . $_POST["email"] . "), thanks for submitting the form!";
+    header('Location: thank-you');
   } else {
     echo "No bots!";
   }
