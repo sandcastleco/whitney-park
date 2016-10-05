@@ -135,6 +135,7 @@ header {
 .navbar-default {
   background-color: transparent;
   margin-bottom: 0;
+  border-color: transparent;
 }
 .navbar-default .navbar-nav li {
   margin-bottom: 0;
