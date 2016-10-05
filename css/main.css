@@ -209,8 +209,9 @@ main {
  * Form
  */
 
-.gotcha {
-  display: none;
+/* Spam prevention */
+.g-recaptcha {
+  margin-bottom: .5rem;
 }
 
 /*
