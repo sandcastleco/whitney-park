@@ -24,6 +24,6 @@
 
     header('Location: thank-you');
   } else {
-    echo "No bots!";
+    header('Location: error');
   }
 ?>

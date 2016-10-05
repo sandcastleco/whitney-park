@@ -24,6 +24,9 @@ img {
     margin-bottom: 0;
   }
 }
+.center-block {
+  float: none;
+}
 
 /*
  * Typography
