@@ -13,7 +13,7 @@
   }
 
   if ($response != null && $response->success) {
-    $to      = 'kevin@sandcastle.co';
+    $to      = 'gb@gb-re.com';
     $subject = '[whitneypark.com] New message';
     $message = $_POST["message"];
     $headers = 'From: ' . $_POST["email"] . "\r\n" .
