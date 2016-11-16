@@ -14,9 +14,10 @@
 
   if ($response != null && $response->success) {
     $to      = 'gb@gb-re.com';
+    $from    = 'gb@gb-re.com';
     $subject = '[whitneypark.com] New message';
-    $message = "New message from " . $_POST["name"] . "(" . $_POST["email"] . "): " . $_POST["message"];
-    $headers = 'From: ' . $_POST["email"] . "\r\n" .
+    $message = "New message from " . $_POST["name"] . "(" . $_POST["email"] . "): " . $_POST["message"] . "\n\nReply to this email to respond.";
+    $headers = 'From: ' . $from . "\r\n" .
                'Reply-To: ' . $_POST["email"] . "\r\n" .
                'X-Mailer: PHP/' . phpversion();
 
