@@ -1,2 +1,26 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script>
+console.log("test");
+var $contactForm = $('#contact-form');
+$contactForm.submit(function(e) {
+  console.log("submitted");
+  var value = $("#test").val();
+  console.log(value);
+	e.preventDefault();
+  if (value == 4) {
+    $.ajax({
+  		url: 'https://formspree.io/gb@gb-re.com',
+  		method: 'POST',
+  		data: $(this).serialize(),
+  		dataType: 'json',
+      success: function(data) {
+  			console.log(data);
+        window.location.href = "/thank-you";
+  		}
+  	});
+  } else {
+    window.location.href = "/error";
+  }
+});
+</script>
