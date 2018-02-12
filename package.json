@@ -1,0 +1,18 @@
+{
+  "name": "whitney-park",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This is a website for Whitney Park. It's built with Jekyll and a little bit of PHP.",
+  "main": "index.js",
+  "scripts": {
+    "start": "php -S localhost:8000 -t _site/ | jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandcastleco/whitney-park.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandcastleco/whitney-park/issues"
+  },
+  "homepage": "https://github.com/sandcastleco/whitney-park#readme"
+}
