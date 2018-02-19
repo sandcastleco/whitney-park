@@ -1,7 +1,6 @@
 ---
-layout: default
-title: Welcome
-permalink: /welcome
+layout: base
+title: Whitney Park Townhomes
 ---
 
 # Welcome to a new era of urban living in Green Bay!

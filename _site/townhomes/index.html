@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Whitney Park Townhomes • Green Bay, WI • Welcome</title>
+  <title>Whitney Park Townhomes • Green Bay, WI • Whitney Park Townhomes</title>
   <meta name="description" content="GB Real Estate Investments, LLC, is a licensed real estate brokerage that brokers and develops retail real estate property in Florida and Wisconsin.">
   <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -35,39 +35,7 @@
 </header>
 
     
-    <header role="navigation">
-  <a href="/">Whitney Park Townhomes & 901 Main</a>
-  <nav>
-    <ul>
-      <li><a href="/townhomes">Whitney Park Townhomes</a></li>
-      <li><a href="/901-main">901 Main</a></li>
-    </ul>
-  </nav>
-</header>
-
-
-<main class="container">
-  <nav class="navbar navbar-default">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span>Menu</span>
-      </button>
-    </div>
-
-    <div class="collapse navbar-collapse" id="collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/welcome">Welcome</a></li>
-        <li><a href="#">Plans</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </div>
-</nav>
-
-
-  <h1 id="welcome-to-a-new-era-of-urban-living-in-green-bay">Welcome to a new era of urban living in Green Bay!</h1>
+    <h1 id="welcome-to-a-new-era-of-urban-living-in-green-bay">Welcome to a new era of urban living in Green Bay!</h1>
 
 <p>Your new home awaits! Just steps from the entertainment, cultural, and employment offerings of downtown and the Olde Main Street district, Whitney Park Townhomes is pioneering a new day of urban living in Green Bay.  Blending together the best of the ‘burbs and the best of the city, you’ll enjoy all the features of new single-family home construction and the convenience and vibrancy of the city.</p>
 
@@ -108,41 +76,6 @@
 <p>So much is available within footsteps of your front door!  Start your day with coffee at The Attic; grab a gallon of milk at CVS/pharmacy; read a book at the Brown County Library; or meet friends for dinner at one of the numerous restaurants and bars located mere blocks from home.  Afterwards, work off that meal on a 5-mile jog along the East River Trail—two blocks away—that continues onto the Fox River Trail.</p>
 
 <p>And when you need your car, it’s waiting for you inside your secure, weather-protected, 2-stall garage.  With rear alley access, there’s minimal driveway to maintain.  Snow removal is quick and easy!</p>
-
-</main>
-
-<footer>
-  <p class="lead">Welcome to a new era of urban living in Green Bay!</p>
-</footer>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script>
-console.log("test");
-var $contactForm = $('#contact-form');
-$contactForm.submit(function(e) {
-  console.log("submitted");
-  var value = $("#test").val();
-  console.log(value);
-	e.preventDefault();
-  if (value == 4) {
-    $.ajax({
-  		url: 'https://formspree.io/gb@gb-re.com',
-  		method: 'POST',
-  		data: $(this).serialize(),
-  		dataType: 'json',
-      success: function(data) {
-  			console.log(data);
-        window.location.href = "/thank-you";
-  		}
-  	});
-  } else {
-    window.location.href = "/error";
-  }
-});
-</script>
-
 
 
   </body>
