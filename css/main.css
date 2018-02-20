@@ -34,6 +34,8 @@ img {
   color: white;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 15px;
+  padding-right: 15px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
@@ -112,7 +114,7 @@ hr {
   border-right: 0px;
 }
 .lead {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
 }
 
 /*
@@ -244,9 +246,6 @@ body {
   height: 100vh;
 }
 .cover-content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   padding: 15px;
   width: 100%;
   color: white;
@@ -255,6 +254,9 @@ body {
 }
 @media(min-width: 780px) {
   .cover-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 60px;
