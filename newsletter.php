@@ -11,11 +11,11 @@
   $email = $_POST["email"];
 
   $post_data = json_encode(
-    [
-      'fields' => [
+    array(
+      'fields' => array(
         'Email' => $email
-      ]
-    ]
+      )
+    )
   );
 
   $ch = curl_init($api_address);
