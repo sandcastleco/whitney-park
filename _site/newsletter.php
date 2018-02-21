@@ -3,10 +3,10 @@
   $api_address = 'https://api.airtable.com/v0/appHkoh1AS4ReBG5M/Contacts';
   $api_key = 'keySZ84JS34GZjoNq';
 
-  $http_headers = [
+  $http_headers = array(
     "Authorization: Bearer " . $api_key,
     "Content-type: application/json"
-  ];
+  );
 
   $email = $_POST["email"];
 
