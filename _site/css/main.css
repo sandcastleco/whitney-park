@@ -55,7 +55,7 @@ html {
   }
 }
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
   font-size: 1em;
   line-height: 1.35;
   font-size: .85rem;
@@ -122,7 +122,7 @@ hr {
  * Buttons
  */
 
-.btn-default {
+/* .btn-default {
   font-size: 1rem;
   background-color: rgba(255,255,255,0.2);
   color: white;
@@ -134,7 +134,7 @@ hr {
   color: white;
   opacity: 0.8;
   transition: opacity .3s;
-}
+} */
 
 /*
  * Header
@@ -233,10 +233,6 @@ main {
  * Cover
  */
 
-body {
-  background: url('/images/background-1.jpg');
-  background-size: cover;
-}
 .cover {
   height: 100vh;
 }
@@ -305,23 +301,4 @@ input::placeholder { /* Chrome/Opera/Safari */
   outline: none;
   transition: border 0.3s;
   border-bottom: 3px solid rgba(255,255,255,0.8);
-}
-
-/*
- * Footer
- */
-
-footer {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 2rem;
-  font-size: .8rem;
-  text-align: center;
-  color: #FFF;
-}
-footer a {
-  color: #FFF;
-}
-footer a:hover {
-  color: #FFF;
 }
