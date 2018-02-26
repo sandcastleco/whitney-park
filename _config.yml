@@ -1,5 +1,6 @@
 # Site settings
-title: Whitney Park Townhomes
+title: Whitney Park
+url: www.whitneypark.com
 
 # Build settings
 markdown: kramdown

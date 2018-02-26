@@ -1,14 +1,13 @@
 ---
-layout: default
+layout: base
 title: Thank You
-permalink: /thank-you
 ---
 
-<div class="text-center">
-  <hr>
-  <h1>Thank you for contacting us</h1>
+<div class="cover text-center">
+  <div class="cover-content">
+  <h1>Thank you for signing up for updates</h1>
 
   <p class="lead">We'll be in touch soon.</p>
-  <hr>
   <a href="/" class="btn btn-default">Return home</a>
+  </div>
 </div>
