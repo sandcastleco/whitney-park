@@ -4,6 +4,7 @@ title: 901 Main
 ---
 
 # 901 Main
+{: .tc}
 
 Photos, description, etc.
 
