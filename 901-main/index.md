@@ -53,6 +53,10 @@ Reimagine your neighborhood
 
     <ul>
       <li>Whitney Park Bark Park</li>
+      <li>Bars, restaurants, and coffee</li>
+      <li>Parks and recreational trails</li>
+      <li>Retail Services</li>
+      <li>Library & Co-Working Space</li>
     </ul>
   </div>
 
