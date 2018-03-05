@@ -28,20 +28,19 @@
 
   <body class="josefin lh-copy">
 
-    <div class="mw8 center ph2">
-      <header class="tc" role="navigation">
-  <a class="dib link blue pa2" href="/">Home</a>
-  <nav class="dib">
-    <ul class="list pl0">
-      <li class="dib pa2"><a class="link blue" href="/townhomes">Whitney Park Townhomes</a></li>
-      <li class="dib pa2"><a class="link blue" href="/901-main">901 Main</a></li>
-      <li class="dib pa2"><a class="link blue" href="/contact">Inquire</a></li>
-    </ul>
-  </nav>
+    <header class="tc" role="navigation">
+  <button class="absolute top-0 right-0 pa2 bn bg-white shadow-4">Menu</button>
+  <a class="dn link blue pa2" href="/">Home</a>
+  <div class="dn"><nav class="dib dark-gray">
+  <a class="link dark-gray" href="/townhomes">Whitney Park Townhomes</a> /
+  <a class="link dark-gray" href="/901-main">901 Main</a> /
+  <a class="link dark-gray" href="/contact">Contact</a>
+</nav>
+</div>
 </header>
 
 
-      <h1 class="tc" id="whitney-park-townhomes">Whitney Park Townhomes</h1>
+    <h1 class="tc" id="whitney-park-townhomes">Whitney Park Townhomes</h1>
 
 <p class="tc f3">Your own home in the heart of downtown</p>
 
@@ -142,21 +141,21 @@
 
 <form id="contact-form">
   <input type="hidden" name="_next" value="http://whitneypark.com/thank-you" />
-  <div class="form-group">
+  <div class="mb3">
     <label class="sr-only" for="name">Your name</label>
-    <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
+    <input type="text" class="w-100 pa2 br1 bn shadow-4" id="name" name="name" placeholder="Name" />
   </div>
-  <div class="form-group">
+  <div class="mb3">
     <label class="sr-only" for="email">Email address</label>
-    <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+    <input type="email" class="w-100 pa2 br1 bn shadow-4" id="email" name="email" placeholder="Email" />
   </div>
-  <div class="form-group">
+  <div class="mb3">
     <label class="sr-only" for="message">Message</label>
-    <textarea id="message" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
+    <textarea id="message" class="w-100 pa2 br1 bn shadow-4" rows="3" name="message" placeholder="Message"></textarea>
   </div>
-  <div class="form-group">
+  <div class="mb3">
     <label for="test">Are you human? What's 2 + 2?</label>
-    <input type="text" class="form-control" id="test" name="test" placeholder="Answer" />
+    <input type="text" class="w-100 pa2 br1 bn shadow-4" id="test" name="test" placeholder="Answer" />
   </div>
   <input class="sr-only" type="text" name="_gotcha" />
   <button type="submit" class="btn btn-default">Send</button>
@@ -168,10 +167,15 @@
 
 </section>
 
-    </div>
 
-    <footer class="bg-light-gray pa3 tc">
-  <p>&copy;2018 GB Real Estate Investments, LLC.</p>
+    <footer class="pa3 tc">
+  <nav class="dib dark-gray">
+  <a class="link dark-gray" href="/townhomes">Whitney Park Townhomes</a> /
+  <a class="link dark-gray" href="/901-main">901 Main</a> /
+  <a class="link dark-gray" href="/contact">Contact</a>
+</nav>
+
+  <p class="mv0 gray">&copy;2018 <a href="http://gb-re.com" target="_blank">GB Real Estate Investments, LLC.</a></p>
 </footer>
 
 
