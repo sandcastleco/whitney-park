@@ -22,3 +22,24 @@
 
 .shadow-6 {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
+
+.card-hero {
+  position: absolute;
+  transform: skewX(-15deg);
+  width: 85%; }
+
+.card-hero-left {
+  left: -35%; }
+
+.card-hero-right {
+  right: -35%; }
+
+.card-hero-content {
+  position: relative;
+  transform: skewX(15deg); }
+
+.card-hero-left .card-hero-content {
+  left: 25%; }
+
+.card-hero-right .card-hero-content {
+  right: 25%; }

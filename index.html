@@ -4,16 +4,22 @@ description: "Coming March 2018. Two exciting new developments in Green Bay! Sig
 social-image: HomeG_04-00.jpg
 ---
 
-<section class="flex-ns tc clear">
-  <div style="background-image: url('/images/HomeG_04-01.jpg');"  class="fl-ns cover w-50-ns ph3 pv4 pv6-ns white br-ns bw3-ns">
-    <h3 class="f1 text-shadow mb0"><a class="white link" href="/townhomes">Whitney Park Townhomes</a></h3>
-    <p class="mt0 f3 text-shadow">Your own home in the heart of downtown.</p>
-    <p class="mt0 f3 text-shadow"><a class="white link" href="/townhomes">Learn more</a></p>
+<section style="height: 424px;" class="tc">
+  <!-- <div style="background-image: url('/images/townhomes-preview.jpg');"  class="card-hero card-hero-left fl-ns cover ph3 pv4 pv6-ns white"> -->
+  <div  class="card-hero card-hero-left fl-ns cover ph3 pv4 pv6-ns white bg-gray br bw2">
+    <div class="card-hero-content">
+      <h3 class="f1 text-shadow mv0"><a class="white link" href="/townhomes">Whitney Park Townhomes</a></h3>
+      <p class="mt0 f3 text-shadow">Your own home in the heart of downtown.</p>
+      <p class="mv0 f3 text-shadow"><a class="white link" href="/townhomes">Learn more</a></p>
+    </div>
   </div>
-  <div style="background-image: url('/images/HomeG_05.jpg');" class="fl-ns cover w-50-ns ph3 pv4 pv6-ns white bt bw3 bn-ns">
-    <h3 class="f1 text-shadow mb0"><a class="white link" href="/901-main">901 Main</a></h3>
-    <p class="mt0 f3 text-shadow">Reimagine your neighborhood.</p>
-    <p class="mt0 f3 text-shadow"><a class="white link" href="/901-main">Learn more</a></p>
+  <!-- <div style="background-image: url('/images/901-main-preview.jpg');" class="card-hero card-hero-right fl-ns cover ph3 pv4 pv6-ns white bt bw3 bn-ns"> -->
+  <div class="card-hero card-hero-right fl-ns cover ph3 pv4 pv6-ns white bt bw3 bn-ns bl bw2 bg-gray">
+    <div class="card-hero-content">
+      <h3 class="f1 text-shadow mv0"><a class="white link" href="/901-main">901 Main</a></h3>
+      <p class="mt0 f3 text-shadow">Reimagine your neighborhood.</p>
+      <p class="mv0 f3 text-shadow"><a class="white link" href="/901-main">Learn more</a></p>
+    </div>
   </div>
 </section>
 
@@ -23,7 +29,8 @@ social-image: HomeG_04-00.jpg
 
 <section class="flex flex-wrap">
   {% for highlight in site.data.highlights %}
-    <div style="background-image: url('/images/HomeG_05.jpg');" class="center flex-auto pa4 cover bg-dark-gray white link tc">
+    <!-- <div style="background-image: url('/images/HomeG_05.jpg');" class="center flex-auto pa4 cover bg-dark-gray white link tc"> -->
+    <div class="center flex-auto pa4 cover bg-gray white link tc">
       <h3 class="f2 text-shadow">{{ highlight.title }}</h3>
       <p class="dn">{{ highlight.description }}</p>
     </div>
