@@ -11,8 +11,6 @@
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
   <link rel="stylesheet" href="/css/main.css?v=5">
 
-  <script src='https://www.google.com/recaptcha/api.js'></script>
-
   <meta name="twitter:card" content="summary_large_image" />
 <meta property="og:title" content="Whitney Park • Green Bay, WI • Error">
 <meta property="og:type" content="article">
@@ -29,7 +27,7 @@
   <body class="josefin lh-copy">
 
     <header class="tc" role="navigation">
-  <button class="absolute top-0 right-0 pa2 bn bg-white shadow-4">Menu</button>
+  <button class="absolute top-0 right-0 pa2 bn bg-white">Menu</button>
   <a class="dn link blue pa2" href="/">Home</a>
   <div class="dn"><nav class="dib dark-gray">
   <a class="link dark-gray" href="/townhomes">Whitney Park Townhomes</a> /
@@ -41,7 +39,7 @@
 
 
     <header class="tc" role="navigation">
-  <button class="absolute top-0 right-0 pa2 bn bg-white shadow-4">Menu</button>
+  <button class="absolute top-0 right-0 pa2 bn bg-white">Menu</button>
   <a class="dn link blue pa2" href="/">Home</a>
   <div class="dn"><nav class="dib dark-gray">
   <a class="link dark-gray" href="/townhomes">Whitney Park Townhomes</a> /
@@ -64,41 +62,23 @@
   <hr />
   <p class="lead text-center">There was an error submitting the form, please try again.</p>
   <div class="col-md-8 center-block">
-    <!-- <form action="/contact.php" method="POST">
-  <input type="hidden" name="_next" value="http://whitneypark.com/thank-you">
-  <div class="form-group">
-    <label class="sr-only" for="name">Your name</label>
-    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-  </div>
-  <div class="form-group">
-    <label class="sr-only" for="email">Email address</label>
-    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-  </div>
-  <div class="form-group">
-    <label class="sr-only" for="message">Message</label>
-    <textarea id="message" class="form-control" rows="3" name="message" placeholder="Message"></textarea>
-  </div>
-  <div class="g-recaptcha" data-sitekey="6LfPeAgUAAAAAIVKsT2AhfXG01LthV7Gd4909iFe"></div>
-  <button type="submit" class="btn btn-default">Send</button>
-</form> -->
-
-<form id="contact-form">
+    <form id="contact-form">
   <input type="hidden" name="_next" value="http://whitneypark.com/thank-you" />
   <div class="mb3">
     <label class="sr-only" for="name">Your name</label>
-    <input type="text" class="w-100 pa2 br1 bn shadow-4" id="name" name="name" placeholder="Name" />
+    <input type="text" class="w-100 pa3 br1 bn shadow-6" id="name" name="name" placeholder="Name" />
   </div>
   <div class="mb3">
     <label class="sr-only" for="email">Email address</label>
-    <input type="email" class="w-100 pa2 br1 bn shadow-4" id="email" name="email" placeholder="Email" />
+    <input type="email" class="w-100 pa3 br1 bn shadow-6" id="email" name="email" placeholder="Email" />
   </div>
   <div class="mb3">
     <label class="sr-only" for="message">Message</label>
-    <textarea id="message" class="w-100 pa2 br1 bn shadow-4" rows="3" name="message" placeholder="Message"></textarea>
+    <textarea id="message" class="w-100 pa3 br1 bn shadow-6" rows="3" name="message" placeholder="Message"></textarea>
   </div>
   <div class="mb3">
     <label for="test">Are you human? What's 2 + 2?</label>
-    <input type="text" class="w-100 pa2 br1 bn shadow-4" id="test" name="test" placeholder="Answer" />
+    <input type="text" class="w-100 pa3 br1 bn shadow-6" id="test" name="test" placeholder="Answer" />
   </div>
   <input class="sr-only" type="text" name="_gotcha" />
   <button type="submit" class="btn btn-default">Send</button>
@@ -109,14 +89,14 @@
 
 </main>
 
-<footer class="pa3 tc">
+<footer class="ph3 pv4 tc">
   <nav class="dib dark-gray">
   <a class="link dark-gray" href="/townhomes">Whitney Park Townhomes</a> /
   <a class="link dark-gray" href="/901-main">901 Main</a> /
   <a class="link dark-gray" href="/contact">Contact</a>
 </nav>
 
-  <p class="mv0 gray">&copy;2018 <a href="http://gb-re.com" target="_blank">GB Real Estate Investments, LLC.</a></p>
+  <p class="mv0 gray">&copy;2018 <a class="link gray" href="http://gb-re.com" target="_blank">GB Real Estate Investments, LLC.</a></p>
 </footer>
 
 
@@ -148,14 +128,14 @@ $contactForm.submit(function(e) {
 
 
 
-    <footer class="pa3 tc">
+    <footer class="ph3 pv4 tc">
   <nav class="dib dark-gray">
   <a class="link dark-gray" href="/townhomes">Whitney Park Townhomes</a> /
   <a class="link dark-gray" href="/901-main">901 Main</a> /
   <a class="link dark-gray" href="/contact">Contact</a>
 </nav>
 
-  <p class="mv0 gray">&copy;2018 <a href="http://gb-re.com" target="_blank">GB Real Estate Investments, LLC.</a></p>
+  <p class="mv0 gray">&copy;2018 <a class="link gray" href="http://gb-re.com" target="_blank">GB Real Estate Investments, LLC.</a></p>
 </footer>
 
 
