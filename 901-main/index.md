@@ -83,7 +83,7 @@ header-image: 901-main-preview.jpg
 
 <section style="background-image: url('/images/background-3.jpg');" class="cover pa3 pv4">
   <div class="mw6 center">
-    <h2 class="mt0 ph2 f2 mw6 center tc mb3 whitney-red">Contact us</h2>
+    <h2 class="mt0 ph2 f2 mw6 center tc mb3 main-blue">Contact us</h2>
     <p>901 Main St. Green Bay, WI 54301</p>
     {% include contact-form.html %}
   </div>
