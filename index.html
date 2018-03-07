@@ -22,15 +22,15 @@ social-image: HomeG_04-00.jpg
 </section>
 
 <section style="background-image: url('/images/background-2.jpg');" class="cover ph2 pv5">
-  <h2 class="ph2 f2 mw6 center tc mb3">The lifestyle of today’s urbanite all in one neighborhood</h2>
+  <h2 class="ph2 f2 mw6 center tc mb3 whitney-red">The lifestyle of today’s urbanite all in one neighborhood</h2>
 </section>
 
-<section class="flex flex-wrap">
+<section class="flex flex-wrap bg-gray">
   {% for highlight in site.data.highlights %}
     <!-- <div style="background-image: url('/images/HomeG_05.jpg');" class="center flex-auto pa4 cover bg-dark-gray white link tc"> -->
-    <div class="center flex-auto pa4 cover bg-gray white link tc">
-      <h3 class="f2 text-shadow">{{ highlight.title }}</h3>
-      <p class="dn">{{ highlight.description }}</p>
+    <div class="center mw5 flex-auto pa4 cover white link tc">
+      <h3 class="f3 text-shadow">{{ highlight.title }}</h3>
+      <p>{{ highlight.description }}</p>
     </div>
   {% endfor %}
 
@@ -39,7 +39,7 @@ social-image: HomeG_04-00.jpg
 
 <section style="background-image: url('/images/background-3.jpg');" class="cover pa3 pv4">
   <div class="mw6 center">
-    <h2 class="mt0 ph2 f2 mw6 center tc mb3">Contact us</h2>
+    <h2 class="mt0 ph2 f2 mw6 center tc mb3 whitney-red">Contact us</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     {% include contact-form.html %}
   </div>
