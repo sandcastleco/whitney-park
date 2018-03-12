@@ -4,40 +4,83 @@ description: "Coming March 2018. Two exciting new developments in Green Bay! Sig
 social-image: HomeG_04-00.jpg
 ---
 
-<section class="mw9 center relative tc" style="height: 424px;">
-  <div class="card fl-ns cover white">
-    <div class="card-content cover pv6" style="background-image: url('/images/townhomes-preview.jpg');">
-      <h3 class="f1 text-shadow mv0"><a class="white link" href="/townhomes">Whitney Park Townhomes</a></h3>
-      <p class="mt0 f3 text-shadow">Your own home in the heart of downtown.</p>
-      <p class="mv0 f3 text-shadow"><a class="white link" href="/townhomes">Learn more</a></p>
+<section class="card-container mw9 center relative tc cf">
+  <div class="card w-50-l white">
+    <div class="card-content cover ph3 pv4 pv6-ns" style="background-image: url('/images/townhomes-preview.jpg');">
+      <h3 class="mv0 f2 lh-title text-shadow"><a class="white link" href="/townhomes">Whitney Park Townhomes</a></h3>
+      <p class="mt0 f4 text-shadow">Your own home in the heart of downtown.</p>
+      <p class="mv0 f4"><a class="dib br3 bg-white-80 ph4 pv1 whitney-red link shadow-6" href="/townhomes">Learn more</a></p>
     </div>
   </div>
-  <div class="card fl-ns white">
-    <div class="card-content cover pv6" style="background-image: url('/images/901-main-preview.jpg');">
-      <h3 class="f1 text-shadow mv0"><a class="white link" href="/901-main">901 Main</a></h3>
-      <p class="mt0 f3 text-shadow">Reimagine your neighborhood.</p>
-      <p class="mv0 f3 text-shadow"><a class="white link" href="/901-main">Learn more</a></p>
+  <div class="card w-50-l white">
+    <div class="card-content cover ph3 pv4 pv6-ns" style="background-image: url('/images/901-main-preview.jpg');">
+      <h3 class="mv0 f2 lh-title text-shadow"><a class="white link" href="/901-main">901 Main</a></h3>
+      <p class="mt0 f4 text-shadow">Reimagine your neighborhood.</p>
+      <p class="mv0 f4"><a class="dib br3 bg-white-80 ph4 pv1 main-blue link shadow-6" href="/901-main">Learn more</a></p>
     </div>
   </div>
-</section>
-
-<section style="background-image: url('/images/background-2.jpg');" class="cover ph2 pv5">
-  <h2 class="ph2 f2 mw6 center tc mb3 whitney-red">The lifestyle of today’s urbanite all in one neighborhood</h2>
-</section>
-
-<section class="flex flex-wrap bg-gray">
-  {% for highlight in site.data.highlights %}
-    <!-- <div style="background-image: url('/images/HomeG_05.jpg');" class="center flex-auto pa4 cover bg-dark-gray white link tc"> -->
-    <div class="center mw5 flex-auto pa4 cover white link tc">
-      <h3 class="f3 text-shadow">{{ highlight.title }}</h3>
-      <p>{{ highlight.description }}</p>
+  <!-- <div class="card white">
+    <div class="card-content cover ph3 pv4 pv6-ns" style="background-image: url('/images/townhomes-preview.jpg');">
+      <h3 class="mv0 f2 lh-title text-shadow"><a class="white link" href="/townhomes">Whitney Park Townhomes</a></h3>
+      <p class="mt0 f4 text-shadow">Your own home in the heart of downtown.</p>
+      <p class="mv0 f4"><a class="dib br3 bg-white-80 ph4 pv1 whitney-red link shadow-6" href="/townhomes">Learn more</a></p>
     </div>
-  {% endfor %}
+  </div>
+  <div class="card white">
+    <div class="card-content cover ph3 pv4 pv6-ns" style="background-image: url('/images/901-main-preview.jpg');">
+      <h3 class="mv0 f2 lh-title text-shadow"><a class="white link" href="/901-main">901 Main</a></h3>
+      <p class="mt0 f4 text-shadow">Reimagine your neighborhood.</p>
+      <p class="mv0 f4"><a class="dib br3 bg-white-80 ph4 pv1 main-blue link shadow-6" href="/901-main">Learn more</a></p>
+    </div>
+  </div> -->
+</section>
+
+<section style="background-image: url('/images/background-2.jpg');" class="cover ph2 pv5 mw9 center">
+  <h2 class="mb3 ph2 mw6 center f3 f2-ns tc whitney-red">The lifestyle of today’s urbanite all in one neighborhood</h2>
+</section>
+
+<section class="mw9 center">
+  <div class="card-container">
+    <div class="card w-50-l">
+      <div class="card-content ph4 pv5 cover white tc" style="background-image: url('/images/901-main-preview.jpg');">
+        <div class="measure center">
+          <h3 class="mt0 f3 text-shadow">Bars, restaurants, and coffee</h3>
+          <p class="mb0">Beer, coffee, or dinner within blocks of home. Eat at home tonight? Why?!</p>
+        </div>
+      </div>
+    </div>
+    <div class="card w-50-l">
+      <div class="card-content ph4 pv5 cover white tc" style="background-image: url('/images/townhomes-preview.jpg');">
+        <div class="measure center">
+          <h3 class="mt0 f3 text-shadow">Parks and recreational trails</h3>
+          <p class="mb0">Whitney Park is the oldest park in the city, offering generous shade in the summer months as well as multiple community events and gatherings.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-container card-container-reverse">
+    <div class="card w-50-l">
+      <div class="card-content ph3 pv5 cover white tc" style="background-image: url('/images/townhomes-preview.jpg');">
+        <div class="measure center">
+          <h3 class="mt0 f3 text-shadow">Whitney Park Bark Park</h3>
+          <p class="mb0">You probably won't find Snoopy at Whitney Park Bark Park, but you will find many of Green Bay's four-legged friends and their owners enjoying this year-round, fenced-in, off-leash dog area.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card w-50-l">
+      <div class="card-content ph3 pv5 cover white tc" style="background-image: url('/images/901-main-preview.jpg');">
+        <div class="measure center">
+          <h3 class="mt0 f3 text-shadow">Library & Co-Working Space</h3>
+          <p class="mb0">Check out your favorite new book or newspaper at the Brown County Library. While there, check out Rise & Grind, Green Bay's newest co-working space and café.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.061714261121!2d-88.00608658469743!3d44.51388930436688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e537d7897747%3A0x1ae41c2b56d91931!2s901+Main+St%2C+Green+Bay%2C+WI+54301!5e0!3m2!1sen!2sus!4v1519828529046" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe> -->
 </section>
 
-<section style="background-image: url('/images/background-3.jpg');" class="cover pa3 pv4">
+<section style="background-image: url('/images/background-3.jpg');" class="cover pa3 pv4 mw9 center">
   <div class="mw6 center">
     <h2 id="contact" class="mt0 ph2 f2 mw6 center tc mb3 whitney-red">Contact us</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

@@ -39,17 +39,36 @@ ol li {
 .shadow-6 {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); }
 
-@media (min-width: 30em) {
+.card {
+  border-bottom: .5rem solid white; }
+
+@media (min-width: 60em) {
+  .card-container {
+    overflow: hidden; }
+
   .card {
-    position: absolute;
-    width: 53.5%; }
+    float: left;
+    position: relative;
+    border-bottom: 0; }
 
   .card:first-child {
-    top: 0;
-    left: 0;
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%); }
+    left: -3%; }
 
   .card:last-child {
-    top: 0;
-    right: 0;
-    -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%); } }
+    right: 3%; }
+
+  .card-content {
+    width: 110%;
+    -webkit-clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%); }
+
+  .card:first-child .card-content {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 0% 100%); }
+
+  .card:last-child .card-content {
+    -webkit-clip-path: polygon(12% 0%, 100% 0%, 100% 100%, 0% 100%); }
+
+  .card-container-reverse .card:first-child .card-content {
+    -webkit-clip-path: polygon(0% 0%, 88% 0%, 100% 100%, 0% 100%); }
+
+  .card-container-reverse .card:last-child .card-content {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 12% 100%); } }
