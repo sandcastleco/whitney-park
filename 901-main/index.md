@@ -20,10 +20,21 @@ header-image: 901-main-preview.jpg
       </ul>
     </div>
   </div>
+</section>
 
-  <div class="fl pa2 w-33"><div class="bg-near-white h5"></div></div>
-  <div class="fl pa2 w-33"><div class="bg-near-white h5"></div></div>
-  <div class="fl pa2 w-33"><div class="bg-near-white h5"></div></div>
+<section class="mw9 center">
+  <div class="card-container">
+    <div class="card w-50-l">
+      <div class="card-content">
+        <img class="w-100" src="/images/901-main-preview.jpg">
+      </div>
+    </div>
+    <div class="card w-50-l">
+      <div class="card-content">
+        <img class="w-100" src="/images/901-main-preview.jpg">
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="ph3 cf mv4">
@@ -39,10 +50,21 @@ header-image: 901-main-preview.jpg
       </ul>
     </div>
   </div>
+</section>
 
-  <div class="fl pa2 w-33"><div class="bg-near-white h5"></div></div>
-  <div class="fl pa2 w-33"><div class="bg-near-white h5"></div></div>
-  <div class="fl pa2 w-33"><div class="bg-near-white h5"></div></div>
+<section class="mw9 center">
+  <div class="card-container card-container-reverse">
+    <div class="card w-50-l">
+      <div class="card-content">
+        <img class="w-100" src="/images/901-main-preview.jpg">
+      </div>
+    </div>
+    <div class="card w-50-l">
+      <div class="card-content">
+        <img class="w-100" src="/images/901-main-preview.jpg">
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="ph3 cf mv4">
@@ -61,10 +83,21 @@ header-image: 901-main-preview.jpg
       </ul>
     </div>
   </div>
+</section>
 
-  <div class="fl pa2 w-33"><div class="bg-near-white h5"></div></div>
-  <div class="fl pa2 w-33"><div class="bg-near-white h5"></div></div>
-  <div class="fl pa2 w-33"><div class="bg-near-white h5"></div></div>
+<section class="mw9 center">
+  <div class="card-container">
+    <div class="card w-50-l">
+      <div class="card-content">
+        <img class="w-100" src="/images/901-main-preview.jpg">
+      </div>
+    </div>
+    <div class="card w-50-l">
+      <div class="card-content">
+        <img class="w-100" src="/images/901-main-preview.jpg">
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="ph3 cf mv4">
