@@ -7,9 +7,9 @@ header-image: townhomes-preview.jpg
 
 <section class="ph3 cf mv4">
   <div class="mw7 center">
-    <h2 class="fl w-30 pr3 mt0 whitney-red">The whole package, from the roof to the basement.</h2>
+    <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">The whole package, from the roof to the basement.</h2>
 
-    <div class="fl pl3 w-70">
+    <div class="fl-ns pl3-ns w-70-ns">
       <p class="mt0">Whitney Park Townhomes breaks the mold by providing affordable, new, single-family construction to the near-downtown market with all the features you’d expect in a new suburban home.</p>
 
       <ul>
@@ -26,12 +26,12 @@ header-image: townhomes-preview.jpg
   <div class="card-container">
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/901-main-preview.jpg">
+        <img class="w-100" src="/images/townhomes-kitchen.jpg">
       </div>
     </div>
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/901-main-preview.jpg">
+        <img class="w-100" src="/images/townhomes-bedroom.jpg">
       </div>
     </div>
   </div>
@@ -39,9 +39,9 @@ header-image: townhomes-preview.jpg
 
 <section class="ph3 cf mv4">
   <div class="mw7 center">
-    <h2 class="fl w-30 pr3 mt0 whitney-red">Your home, outdoors.</h2>
+    <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">Your home, outdoors.</h2>
 
-    <div class="fl pl3 w-70">
+    <div class="fl-ns pl3-ns w-70-ns">
       <p class="mt0">Retreat to your private, Chicago-style, garage roof patio where you can enjoy a day of sunbathing or reading a magazine. And when you need your car, it’s waiting for you inside your secure, weather-protected, 2-stall garage. With rear alley access, there’s minimal driveway to maintain. Snow removal is quick and easy!</p>
 
       <ul>
@@ -56,12 +56,12 @@ header-image: townhomes-preview.jpg
   <div class="card-container card-container-reverse">
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/901-main-preview.jpg">
+        <img class="w-100" src="/images/townhomes-roof-garage.jpg">
       </div>
     </div>
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/901-main-preview.jpg">
+        <img class="w-100" src="/images/townhomes-entrance.jpg">
       </div>
     </div>
   </div>
@@ -69,9 +69,9 @@ header-image: townhomes-preview.jpg
 
 <section class="ph3 cf mv4">
   <div class="mw7 center">
-    <h2 class="fl w-30 pr3 mt0 whitney-red">A playground for you, and your dog.</h2>
+    <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">A playground for you, and your dog.</h2>
 
-    <div class="fl pl3 w-70">
+    <div class="fl-ns pl3-ns w-70-ns">
       <p class="mt0">So much is available within footsteps of your front door! Start your day with coffee at The Attic; grab a gallon of milk at CVS/pharmacy; read a book at the Brown County Library; or meet friends for dinner at one of the numerous restaurants and bars located mere blocks from home. Afterwards, work off that meal on a 5-mile jog along the East River Trail—two blocks away—that continues onto the Fox River Trail. Located on Whitney Park, enjoy the cool shade of the tree canopy in the summer and the ice rink in the winter.</p>
 
       <ul>
@@ -89,12 +89,12 @@ header-image: townhomes-preview.jpg
   <div class="card-container">
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/901-main-preview.jpg">
+        <img class="w-100" src="/images/townhomes-whitney-park.jpg">
       </div>
     </div>
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/901-main-preview.jpg">
+        <img class="w-100" src="/images/townhomes-neighborhood.jpg">
       </div>
     </div>
   </div>
@@ -102,9 +102,9 @@ header-image: townhomes-preview.jpg
 
 <section class="ph3 cf mv4">
   <div class="mw7 center">
-    <h2 class="fl w-30 pr3 mt0 whitney-red">Plans and pricing</h2>
+    <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">Plans and pricing</h2>
 
-    <div class="fl pl3 w-70">
+    <div class="fl-ns pl3-ns w-70-ns">
       <p class="mt0">Pricing starts at [...] Please contact us below for more details.</p>
 
       <h3>No condo fees!</h3>
