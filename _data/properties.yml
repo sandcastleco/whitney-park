@@ -1,0 +1,11 @@
+- name: Whitney Park Townhomes
+  description: Your own home in the heart of downtown.
+  link: /townhomes
+  color: whitney-red
+  image: townhomes-preview.jpg
+
+- name: 901 Main
+  description: Reimagine your neighborhood test
+  link: /901-main
+  color: main-blue
+  image: 901-main-preview.jpg

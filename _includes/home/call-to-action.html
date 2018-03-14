@@ -1,0 +1,11 @@
+<section style="background-image: url('/images/background-3.jpg');" class="cover pa3 pv4 mw9 center">
+  <div class="mw6 center">
+    <h2 id="contact" class="mt0 ph2 f2 mw6 center tc mb3 whitney-red">Contact us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h3>General Project Questions & Media Inquiries</h3>
+    <p>{{ site.data.contact.name }}<br>{{ site.data.contact.business }}</p>
+    <p>{{ site.data.contact.phone }}</p>
+    <p><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></p>
+    {% include contact-form.html %}
+  </div>
+</section>
