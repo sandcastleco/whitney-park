@@ -1,5 +1,7 @@
-<nav class="dib dark-gray">
-  <a class="link dark-gray" href="/townhomes">Whitney Park Townhomes</a> /
-  <a class="link dark-gray" href="/901-main">901 Main</a> /
-  <a class="link dark-gray" href="/#contact">Contact</a>
+<nav class="dark-gray">
+  <a class="dib link dark-gray" href="/">Home</a> /
+  {% for property in site.data.properties %}
+    <a class="dib link dark-gray" href="{{ property.link }}">{{ property.name }}</a> /
+  {% endfor %}
+  <a class="dib link dark-gray" href="/#contact">Contact</a>
 </nav>

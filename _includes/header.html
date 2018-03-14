@@ -1,5 +1,9 @@
-<header class="pa3 tc" role="navigation">
-  <!-- <button class="absolute top-0 right-0 pa2 bn bg-white">Menu</button> -->
-  <a class="dib link dark-gray pa2" href="/">Home</a>
-  <div class="dib">{% include navbar.html %}</div>
+<header class="nav tc relative" role="navigation">
+  <div class="ph3 pv4 dib">{% include navbar.html %}</div>
 </header>
+<button class="dn absolute top-0 right-0 z-9999 nav-toggle bg-white bn pl5 pr2 pt2 pb4 josefin shadow-6 pointer v-middle">
+  <div class="dib">
+    <span class="bar"></span>
+  </div>
+  <span class="sr-only">Menu</span>
+</button>
