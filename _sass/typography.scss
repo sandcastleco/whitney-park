@@ -2,7 +2,11 @@
  * Typography
  */
 
-.josefin { font-family: 'Josefin Sans', sans-serif }
+@media (min-width: 30em) {
+  html { font-size: 18px; }
+}
+.josefin { font-family: 'Josefin Sans', sans-serif; }
+.raleway { font-family: 'Raleway', sans-serif; }
 
 ul li,
 ol li {
