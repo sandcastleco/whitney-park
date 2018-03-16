@@ -1,9 +1,11 @@
 .nav-toggle {
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%);
+  transform: skewX(60deg);
+  right: -80px;
 }
 
 .nav-toggle .bar {
   position: relative;
+  transform: skewX(-60deg);
 }
 
 .nav-toggle .bar:before,
