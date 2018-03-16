@@ -23,7 +23,7 @@ header-image: 901-main-preview.jpg
 </section>
 
 <section class="mw9 center">
-  <div class="card-container">
+  <div class="card-container card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
         <img class="w-100" src="/images/901-main-preview.jpg">
@@ -53,7 +53,7 @@ header-image: 901-main-preview.jpg
 </section>
 
 <section class="mw9 center">
-  <div class="card-container card-container-reverse">
+  <div class="card-container card-container-reverse card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
         <img class="w-100" src="/images/901-main-preview.jpg">
@@ -86,7 +86,7 @@ header-image: 901-main-preview.jpg
 </section>
 
 <section class="mw9 center">
-  <div class="card-container">
+  <div class="card-container card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
         <img class="w-100" src="/images/901-main-preview.jpg">
