@@ -21,7 +21,7 @@ header-image: townhomes-preview.jpg
 </section>
 
 <section class="mw9 center">
-  <div class="card-container">
+  <div class="card-container card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
         <img class="w-100" src="/images/townhomes-kitchen.jpg">
@@ -49,7 +49,7 @@ header-image: townhomes-preview.jpg
 </section>
 
 <section class="mw9 center">
-  <div class="card-container card-container-reverse">
+  <div class="card-container card-container-reverse card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
         <img class="w-100" src="/images/townhomes-roof-garage.jpg">
@@ -80,7 +80,7 @@ header-image: townhomes-preview.jpg
 </section>
 
 <section class="mw9 center">
-  <div class="card-container">
+  <div class="card-container card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
         <img class="w-100" src="/images/townhomes-whitney-park.jpg">

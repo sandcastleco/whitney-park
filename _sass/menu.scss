@@ -1,11 +1,16 @@
-.nav-toggle {
+.nav-toggle:before {
+  content: "";
+  width: 200%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: -120%;
   transform: skewX(60deg);
-  right: -80px;
 }
 
 .nav-toggle .bar {
   position: relative;
-  transform: skewX(-60deg);
 }
 
 .nav-toggle .bar:before,
@@ -25,11 +30,11 @@
 }
 
 .nav-toggle .bar:before {
-  margin-top: -8px;
+  margin-top: -6px;
 }
 
 .nav-toggle .bar:after {
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .nav-toggle .bar,.nav-toggle .bar:before,.nav-toggle .bar:after{-webkit-transition-duration:.2s;transition-duration:.2s}

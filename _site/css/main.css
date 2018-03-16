@@ -88,14 +88,22 @@ ol li {
     padding-left: 25%; }
 
   .card:last-child .card-content {
-    padding-right: 25%; } }
-.nav-toggle {
-  transform: skewX(60deg);
-  right: -80px; }
+    padding-right: 25%; }
+
+  .card-container-wide .card .card-content {
+    padding: 0; } }
+.nav-toggle:before {
+  content: "";
+  width: 200%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: -120%;
+  transform: skewX(60deg); }
 
 .nav-toggle .bar {
-  position: relative;
-  transform: skewX(-60deg); }
+  position: relative; }
 
 .nav-toggle .bar:before,
 .nav-toggle .bar:after {
@@ -112,10 +120,10 @@ ol li {
   background-color: #000; }
 
 .nav-toggle .bar:before {
-  margin-top: -8px; }
+  margin-top: -6px; }
 
 .nav-toggle .bar:after {
-  margin-top: 8px; }
+  margin-top: 6px; }
 
 .nav-toggle .bar, .nav-toggle .bar:before, .nav-toggle .bar:after {
   -webkit-transition-duration: .2s;
