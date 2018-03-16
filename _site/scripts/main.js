@@ -1,5 +1,4 @@
 (function() {
-  console.log('hello scripts');
   var $nav;
   var $navToggle;
 
@@ -17,6 +16,6 @@
 
     $navToggle.click(toggleNav);
   }
-
+  
   $(document).ready(init);
 })();
