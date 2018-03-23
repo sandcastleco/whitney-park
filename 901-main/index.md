@@ -10,7 +10,9 @@ header-image: 901-main-preview.jpg
     <h2 class="fl w-30 pr3 mt0 main-blue">Light, fresh, <i>home</i></h2>
 
     <div class="fl pl3 w-70">
-      <p class="mt0">Today’s amenities and plenty of natural light, highlighting the full-size washer and dryer in each unit, among other things.</p>
+      <p class="mt0">Today’s amenities and plenty of natural light highlight these modern, urban apartments!</p>
+
+      <p>You’ll never guess that 901 Main is located at... 901 Main Street!  This three-story, mixed-use urban development offers two levels of one and two-bedroom apartments above first floor commercial space in the middle of the action. Each unit offers residents inviting indoor and outdoor living spaces, in-unit, full-size washers and dryers, daylight in every bedroom (yes, a window!) and below-grade, climate-controlled parking. And did we mention it’s pet friendly?</p>
 
       <ul>
         <li>Modern, urban mixed-use apartments</li>
@@ -39,15 +41,12 @@ header-image: 901-main-preview.jpg
 
 <section class="ph3 cf mv4">
   <div class="mw7 center">
-    <h2 class="fl w-30 pr3 mt0 main-blue">A place for you, and your pets.</h2>
+    <h2 class="fl w-30 pr3 mt0 main-blue">We are pet friendly!</h2>
 
     <div class="fl pl3 w-70">
-      <p class="mt0">Pet friendly, dog park, parking, retail</p>
+      <p class="mt0">What better feature could we offer than to be located across the street from the new Whitney Bark Park—the city’s first off-leash dog area within Whitney Park?  Enjoy a beautiful summer evening or a new-fallen snow with your four-legged friend at the  year-round Bark Park, a mere 200 feet away from your front door.</p>
 
-      <ul>
-        <li>Underground parking and storage available (we’d have to notate in smaller print that underground parking is available for an additional monthly fee, and on a first-reserved basis)</li>
-        <li>Retail amenities in the building</li>
-      </ul>
+      <p>Pets are welcome at 901 Main for a small additional fee.  Waste facilities will be provided on-site for residents.</p>
     </div>
   </div>
 </section>
@@ -75,7 +74,7 @@ header-image: 901-main-preview.jpg
       <p class="mt0">So much is available within footsteps of your front door! Start your day with coffee at The Attic; grab a gallon of milk at CVS/pharmacy; read a book at the Brown County Library; or meet friends for dinner at one of the numerous restaurants and bars located mere blocks from home. Afterwards, work off that meal on a 5-mile jog along the East River Trail—two blocks away—that continues onto the Fox River Trail. Located on Whitney Park, enjoy the cool shade of the tree canopy in the summer and the ice rink in the winter.</p>
 
       <ul>
-        <li>Whitney Park Bark Park</li>
+        <li>Whitney Bark Park</li>
         <li>Bars, restaurants, and coffee</li>
         <li>Parks and recreational trails</li>
         <li>Retail Services</li>
@@ -85,7 +84,7 @@ header-image: 901-main-preview.jpg
   </div>
 </section>
 
-<section class="mw9 center">
+<!-- <section class="mw9 center">
   <div class="card-container card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
@@ -98,14 +97,16 @@ header-image: 901-main-preview.jpg
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="ph3 cf mv4">
   <div class="mw7 center">
     <h2 class="fl w-30 pr3 mt0 main-blue">Plans and pricing</h2>
 
     <div class="fl pl3 w-70">
-      <p class="mt0">Pricing starts at ... Please contact us below for more details.</p>
+      <p class="mt0">Each one-bedroom unit is approximately 750 square feet, with a living room, kitchen, private bedroom and tub/shower bathroom.  Each two-bedroom unit is approximately 1,050 square feet with a large, shared tub/shower bathroom. Each unit contains full-size washers and dryers and includes a balcony for outdoor entertaining.</p>
+
+      <p>Rents begin at $950 for one-bedroom units and $1,350 for two-bedroom units. Below-grade, climate-controlled parking is available for an additional fee on a first-rented, first-served basis. Contact us today for more details and/or to reserve your unit!</p>
     </div>
   </div>
 

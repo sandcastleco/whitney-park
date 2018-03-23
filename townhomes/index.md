@@ -29,7 +29,7 @@ header-image: townhomes-preview.jpg
     </div>
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/townhomes-bedroom.jpg">
+        <img class="w-100" src="/images/townhomes-living-room.jpg">
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@ header-image: townhomes-preview.jpg
     <p class="mt0">So much is available within footsteps of your front door! Start your day with coffee at The Attic; grab a gallon of milk at CVS/pharmacy; read a book at the Brown County Library; or meet friends for dinner at one of the numerous restaurants and bars located mere blocks from home. Afterwards, work off that meal on a 5-mile jog along the East River Trail—two blocks away—that continues onto the Fox River Trail. Located on Whitney Park, enjoy the cool shade of the tree canopy in the summer and the ice rink in the winter.</p>
 
     <ul>
-      <li>Whitney Park Bark Park</li>
+      <li>Whitney Bark Park</li>
       <li>Bars, restaurants, and coffee</li>
       <li>Parks and recreational trails</li>
       <li>Retail Services</li>
@@ -107,7 +107,7 @@ header-image: townhomes-preview.jpg
     </div>
   </div>
 
-  <div class="fl pa2 w-100"><img src="/images/townhomes-phase-4-floor-plan.png" alt="Townhomes floor plan"></div>
+  <div class="db w-100 ph3"><img src="/images/townhomes-phase-4-floor-plan.png" alt="Townhomes floor plan"></div>
 </section>
 
 <section style="background-image: url('/images/background-3.jpg');" class="cover pa3 pv4">
