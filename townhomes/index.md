@@ -5,7 +5,7 @@ subtitle: Your own home in the heart of downtown
 header-image: townhomes-preview.jpg
 ---
 
-<section class="mw7 ph3 center cf mv4">
+<section class="mw7 ph3 center cf mb2 mt4">
   <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">The whole package, from the roof to the basement.</h2>
 
   <div class="fl-ns pl3-ns w-70-ns">
@@ -20,9 +20,9 @@ header-image: townhomes-preview.jpg
   </div>
 </section>
 
-<section class="mw9 center">
+<section class="mw8 center">
   <div class="card-container card-container-wide">
-    <div class="card w-50-l">
+    <div class="mt0 card w-50-l">
       <div class="card-content">
         <img class="w-100" src="/images/townhomes-kitchen.jpg">
       </div>
@@ -35,7 +35,7 @@ header-image: townhomes-preview.jpg
   </div>
 </section>
 
-<section class="mw7 ph3 center cf mv4">
+<section class="mw7 ph3 center cf mb2 mt5">
   <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">Your home, outdoors.</h2>
 
   <div class="fl-ns pl3-ns w-70-ns">
@@ -48,7 +48,7 @@ header-image: townhomes-preview.jpg
   </div>
 </section>
 
-<section class="mw9 center">
+<section class="mw8 center mb4">
   <div class="card-container card-container-reverse card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
@@ -63,7 +63,7 @@ header-image: townhomes-preview.jpg
   </div>
 </section>
 
-<section class="mw7 ph3 center cf mv4">
+<!-- <section class="mw7 ph3 center cf mv4">
   <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">A playground for you, and your dog.</h2>
 
   <div class="fl-ns pl3-ns w-70-ns">
@@ -77,9 +77,16 @@ header-image: townhomes-preview.jpg
       <li>Library & Co-Working Space</li>
     </ul>
   </div>
-</section>
+</section> -->
 
-<section class="mw9 center">
+<div class="mt5 pv3 cover" style="background-image: url('/images/background-3.jpg');">
+  <div class="mw8 center">
+    <h2 class="whitney-red tc ph3 f2">Explore the neighborhood</h2>
+    {% include features.html %}
+  </div>
+</div>
+
+<!-- <section class="mw9 center">
   <div class="card-container card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
@@ -92,7 +99,7 @@ header-image: townhomes-preview.jpg
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="mw8 center ph3 cf mv4">
   <div class="mw7 center">

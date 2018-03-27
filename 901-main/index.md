@@ -66,23 +66,12 @@ header-image: 901-main-preview.jpg
   </div>
 </section>
 
-<section class="ph3 cf mv4">
-  <div class="mw7 center">
-    <h2 class="fl w-30 pr3 mt0 main-blue">The best of downtown, at your fingertips</h2>
-
-    <div class="fl pl3 w-70">
-      <p class="mt0">So much is available within footsteps of your front door! Start your day with coffee at The Attic; grab a gallon of milk at CVS/pharmacy; read a book at the Brown County Library; or meet friends for dinner at one of the numerous restaurants and bars located mere blocks from home. Afterwards, work off that meal on a 5-mile jog along the East River Trail—two blocks away—that continues onto the Fox River Trail. Located on Whitney Park, enjoy the cool shade of the tree canopy in the summer and the ice rink in the winter.</p>
-
-      <ul>
-        <li>Whitney Bark Park</li>
-        <li>Bars, restaurants, and coffee</li>
-        <li>Parks and recreational trails</li>
-        <li>Retail Services</li>
-        <li>Library & Co-Working Space</li>
-      </ul>
-    </div>
+<div class="mt5 pv3 cover" style="background-image: url('/images/background-3.jpg');">
+  <div class="mw8 center">
+    <h2 class="main-blue tc ph3 f2">Explore the neighborhood</h2>
+    {% include features.html %}
   </div>
-</section>
+</div>
 
 <!-- <section class="mw9 center">
   <div class="card-container card-container-wide">
