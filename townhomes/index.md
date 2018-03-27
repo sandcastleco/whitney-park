@@ -16,7 +16,7 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
   </div>
 </section>
 
-<ul class="mw8 center flex list mt0 pl0 f3 tc">
+<ul class="mw8 center flex-ns list mt0 pl0 f3 tc">
   <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">2-story home with full basement</li>
   <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">3 bedrooms, 2 ½ baths</li>
   <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">1400 square feet</li>
@@ -51,10 +51,10 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
   </div>
 </section>
 
-<ul class="mw8 center flex list pl0 f3 tc mt0">
-  <li class="flex justify-center items-center card-alt w-third bg-white whitney-red mh2 pa3">“Chicago-style” patio</li>
-  <li class="flex justify-center items-center card-alt w-third bg-white whitney-red mh2 pa3">2-stall attached garage</li>
-  <li class="flex justify-center items-center card-alt w-third bg-white whitney-red mh2 pa3">Striking modern exterior</li>
+<ul class="mw8 center flex-ns list pl0 f3 tc mt0">
+  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">“Chicago-style” patio</li>
+  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">2-stall attached garage</li>
+  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">Striking modern exterior</li>
 </ul>
 
 <section class="mw8 center mb4">
@@ -73,14 +73,14 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 </section>
 
 <section class="pv4 mt5 mb2 cover" style="background-image: url('/images/background-3.jpg');">
-  <div class="mw7 center">
+  <div class="mw7 center ph3">
     <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">Plans and pricing</h2>
 
     <div class="fl-ns pl3-ns w-70-ns">
       <p class="mt0"><span class="whitney-red">Pricing starts at $199,000.</span> And of course, <span class="whitney-red">no condo fees!</span> This is a townhome, constructed side-by-side in a row, meaning you own the land underneath your home and maintain your property as you would in any typical neighborhood. While condo-like in design and functionality, there are no common elements and no condo association—and therefore, no monthly maintenance fees. Your home and the grounds around it are yours to design and enjoy.</p>
     </div>
 
-    <div class="db w-100 ph3"><img src="/images/townhomes-phase-4-floor-plan.png" alt="Townhomes floor plan"></div>
+    <div class="db w-100 ph3-ns"><img src="/images/townhomes-phase-4-floor-plan.png" alt="Townhomes floor plan"></div>
   </div>
 
 </section>
@@ -94,11 +94,11 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 <div class="mt5 pv3 cover" style="background-image: url('/images/background-3.jpg');">
   <div class="mw9 center">
     <h2 class="whitney-red tc ph3 f2">Explore the neighborhood</h2>
-    <div class="flex mw9 ph3 center mb4">
-      <div class="flex justify-center items-center card-alt w-30 f4 bg-white whitney-red mh2 pa3"><p>{{ page.address }}</p></div>
+    <div class="flex-ns mw9 ph3 center mb4">
+      <div class="flex justify-center items-center card-alt w-30-ns f4 bg-white whitney-red mh2-ns mb3 mb0-ns pa3"><p>{{ page.address }}</p></div>
       <div class="card-alt flex w-100 h5 bg-white items-center justify-center gray">Map</div>
     </div>
-    <div class="mw6 center">
+    <div class="mw6 center ph3">
       <p class="mt0">These new units are located one block south of the existing Whitney Park Townhomes, in the 200 block of N. Van Buren Street. Each front will face east at the future Whitney School redevelopment, and is just south of Whitney Park and its new Whitney Bark Park.</p>
     </div>
     {% include features.html %}
