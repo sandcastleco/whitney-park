@@ -3,6 +3,7 @@ $main-blue: #6199E3;
 
 .whitney-red { color: $whitney-red; }
 .bg-whitney-red { background-color: $whitney-red; }
+.highlight-whitney-red { background-color: lighten($whitney-red, 30%); }
 
 .main-blue { color: $main-blue; }
 .bg-main-blue { background-color: $main-blue; }
