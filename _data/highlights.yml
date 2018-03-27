@@ -1,14 +1,19 @@
 - title: Bars, restaurants, and coffee
   description: Beer, coffee, or dinner within blocks of home. Eat at home tonight? Why?!
+  image: townhomes-neighborhood.jpg
+  image-description: The neighborhood coffee shop.
 
-- title: Parks and recreational trails
-  description: Whitney Park is the oldest park in the city, offering generous shade in the summer months as well as multiple community events and gatherings.
+- title: Retail services
+  description: "What every urban dweller needs quick access to: everyday essentials! Milk, eggs, and... aspirin. Hey, we don't judge!"
+  image: townhomes-neighborhood-2.jpg
+  image-description: View of the main street shops.
 
 - title: Whitney Bark Park
   description: You probably won't find Snoopy at Whitney Bark Park, but you will find many of Green Bay's four-legged friends and their owners enjoying this year-round, fenced-in, off-leash dog area.
+  image: townhomes-bark-park.jpg
+  image-description: A doggo enjoying the Bark Park.
 
-- title: Library & Co-Working Space
-  description: Check out your favorite new book or newspaper at the Brown County Library. While there, check out Rise & Grind, Green Bay's newest co-working space and café.
-
-- title: Retail Services
-  description: "What every urban dweller needs quick access to: everyday essentials! Milk, eggs, and... aspirin. Hey, we don't judge!"
+- title: Parks and recreational trails
+  description: Whitney Park is the oldest park in the city, offering generous shade in the summer months as well as multiple community events and gatherings.
+  image: townhomes-whitney-park.jpg
+  image-description: The entrance to Whitney Park.

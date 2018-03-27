@@ -1,11 +1,16 @@
 <section style="background-image: url('/images/background-3.jpg');" class="cover pa3 pv4 mw9 center">
-  <div class="mw6 center">
-    <h2 id="contact" class="mt0 ph2 f2 mw6 center tc mb3 whitney-red">Contact us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <h3>General Project Questions & Media Inquiries</h3>
-    <p>{{ site.data.contact.name }}<br>{{ site.data.contact.business }}</p>
-    <p>{{ site.data.contact.phone }}</p>
-    <p><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></p>
-    {% include contact-form.html %}
+  <div class="mw8 center">
+    <h2 id="contact" class="mt0 ph2 f2 mw6 center tc mb3 whitney-red">Explore the neighborhood</h2>
+    <div class="flex-l">
+    {% for property in site.data.properties %}
+      <div class="flex-l items-center justify-center w-50-l white tc ma3 card-alt cover bg-animate pv4 pv6-ns ph4" style="background-image: url('/images/{{ property.image }}');">
+        <div class="bg-animate-content">
+          <h3 class="mv0 f3 f2-l lh-title text-shadow raleway"><a class="white link" href="{{ property.link }}">{{ property.name }}</a></h3>
+          <p class="mt2 f5 f4-l text-shadow-2">{{ property.description }}</p>
+          <p class="mv0 f4"><a class="dib br3 bg-white-80 ph4 pv1 {{ property.color}} link shadow-6" href="{{ property.link}}">Learn more</a></p>
+        </div>
+      </div>
+    {% endfor %}
+    </div>
   </div>
 </section>

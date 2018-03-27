@@ -11,6 +11,12 @@
 .clear {
   overflow: auto; }
 
+.skew {
+  transform: skewX(12deg); }
+
+.skew-content {
+  transform: skewX(-12deg); }
+
 .whitney-red {
   color: #D16969; }
 
@@ -50,6 +56,10 @@ ol li {
 
 .card {
   border-bottom: .5rem solid white; }
+
+.card-alt {
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); }
 
 @media (min-width: 60em) {
   body, section {
@@ -109,8 +119,14 @@ ol li {
   .card:last-child .card-content {
     padding-right: 25%; }
 
-  .card-container-wide .card .card-content {
-    padding: 0; } }
+  .card-wide {
+    position: relative; }
+
+  .card-container-wide .card .card-content,
+  .card-wide .card-content,
+  .card-wide:first-child .card-content {
+    padding-left: 0;
+    padding-right: 0; } }
 .nav-toggle:before {
   content: "";
   width: 200%;

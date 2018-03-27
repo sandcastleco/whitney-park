@@ -1,6 +1,10 @@
 .card {
   border-bottom: .5rem solid white;
 }
+.card-alt {
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
 
 @media(min-width: 60em) {
   body, section {
@@ -61,37 +65,15 @@
   .card:last-child .card-content {
     padding-right: 25%;
   }
-  .card-container-wide .card .card-content {
-    padding: 0;
+  .card-wide {
+    position: relative;
+    // width: 1%;
+    // right: -5%;
   }
-  // .card-container {
-  //   overflow: hidden;
-  // }
-  // .card {
-  //   float: left;
-  //   position: relative;
-  //   border-bottom: 0;
-  // }
-  // .card:first-child {
-  //   left: -3%;
-  // }
-  // .card:last-child {
-  //   right: 3%;
-  // }
-  // .card-content {
-  //   width: 110%;
-  //   -webkit-clip-path: polygon(12% 0%, 100% 0%, 88% 100%, 0% 100%);
-  // }
-  // .card:first-child .card-content {
-  //   -webkit-clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 0% 100%);
-  // }
-  // .card:last-child .card-content {
-  //   -webkit-clip-path: polygon(12% 0%, 100% 0%, 100% 100%, 0% 100%);
-  // }
-  // .card-container-reverse .card:first-child .card-content {
-  //   -webkit-clip-path: polygon(0% 0%, 88% 0%, 100% 100%, 0% 100%);
-  // }
-  // .card-container-reverse .card:last-child .card-content {
-  //   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 12% 100%);
-  // }
+  .card-container-wide .card .card-content,
+  .card-wide .card-content,
+  .card-wide:first-child .card-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

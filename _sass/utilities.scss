@@ -2,3 +2,9 @@
 .clear {
   overflow: auto;
 }
+.skew {
+  transform: skewX(12deg);
+}
+.skew-content {
+  transform: skewX(-12deg);
+}
