@@ -2,7 +2,7 @@
   <div class="card-container">
   {% for property in site.data.properties %}
     <div class="card w-50-l white tc">
-      <div class="card-content bg-animate pv4 pv6-ns" style="background-image: url('/images/{{ property.image }}');">
+      <div class="card-content cover h-100 bg-animate pv4 pv6-ns" style="background-image: url('/images/{{ property.image }}');">
         <div class="bg-animate-content">
           <h3 class="mv0 f2 lh-title text-shadow raleway"><a class="white link" href="{{ property.link }}">{{ property.name }}</a></h3>
           <p class="mt2 f4 text-shadow-2">{{ property.description }}</p>
