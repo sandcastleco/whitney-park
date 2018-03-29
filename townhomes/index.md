@@ -70,6 +70,9 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
       </div>
     </div>
   </div>
+  <div class="mw7 center">
+  <script src="https://fast.wistia.com/embed/medias/usblqu4e97.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:65.31% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_usblqu4e97 videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
+  </div>
 </section>
 
 <section class="pv4 mt5 mb2 cover" style="background-image: url('/images/background-3.jpg');">
