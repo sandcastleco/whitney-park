@@ -13,15 +13,15 @@ address: 901 Main Street<br>Green Bay, WI 54301
     <div class="fl-ns pl3-ns w-70-ns">
       <p class="mt0">Today’s amenities and plenty of natural light highlight these modern, urban apartments!</p>
 
-      <p>901 Main is located at... 901 Main Street!  This three-story, mixed-use urban development offers two levels of one and two-bedroom apartments above first floor commercial space in the middle of the action. <span class="main-blue">Each unit offers residents inviting indoor and outdoor living spaces, in-unit, full-size washers and dryers, daylight in every bedroom (yes, a window!) and below-grade, climate-controlled parking.</span></p>
+      <p>901 Main is located at... 901 Main Street! This three-story, mixed-use urban development offers two levels of one and two-bedroom apartments above first floor commercial space in the middle of the action. <span class="main-blue">Each unit offers residents inviting indoor and outdoor living spaces, in-unit, full-size washers and dryers, daylight in every bedroom (yes, a window!) and below-grade, climate-controlled parking.</span></p>
     </div>
   </div>
 </section>
 
 <ul class="mw8 center flex-ns list mt0 pl0 f3 tc">
-  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">1 - 2 bedroom apartments</li>
-  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">750 - 1050 square feet</li>
-  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">Underground parking</li>
+  <li class="flex justify-center items-center w-third-ns bg-white main-blue ph2 mb0">1 - 2 bedroom apartments</li>
+  <li class="flex justify-center items-center w-third-ns bg-white main-blue ph2 mb0">750 - 1050 square feet</li>
+  <li class="flex justify-center items-center w-third-ns bg-white main-blue ph2 mb0">Underground parking</li>
 </ul>
 <ul class="mw8 center flex-ns list mt0 pl0 f3 tc">
   <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">Pet friendly</li>
@@ -49,21 +49,21 @@ address: 901 Main Street<br>Green Bay, WI 54301
     </div>
   </div>
 </section>
-<!--
-<section class="mw8 center">
+
+<section class="mw7 center">
   <div class="card-container card-container-reverse card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/901-main-preview.jpg">
+        <img class="w-100" src="/images/townhomes-bark-park.jpg">
       </div>
     </div>
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/901-main-preview.jpg">
+        <img class="w-100" src="/images/townhomes-whitney-park.jpg">
       </div>
     </div>
   </div>
-</section> -->
+</section>
 
 <section class="pv4 mt5 mb2 cover cf" style="background-image: url('/images/background-3.jpg');">
   <div class="mw7 center ph3">
@@ -74,8 +74,10 @@ address: 901 Main Street<br>Green Bay, WI 54301
 
       <p>Rents begin at $950 for one-bedroom units and $1,350 for two-bedroom units. Below-grade, climate-controlled parking is available for an additional fee on a first-rented, first-served basis.</p>
     </div>
-    <div class="fl pa2 w-50"><div class="bg-white h5"></div></div>
-    <div class="fl pa2 w-50"><div class="bg-white h5"></div></div>
+  </div>
+  <div class="mw8 center">
+    <img src="/images/901-main-floor-plan-2.jpg" alt="901 Main floor plan">
+    <img src="/images/901-main-floor-plan.jpg" alt="901 Main floor plan">
   </div>
 </section>
 
