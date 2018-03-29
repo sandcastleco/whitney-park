@@ -11,8 +11,6 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 
   <div class="fl-ns pl3-ns w-70-ns">
     <p class="mt0">Whitney Park Townhomes breaks the mold by providing affordable, new, single-family construction to the near-downtown market with all the features you’d expect in a new suburban home.</p>
-
-    <p><span class="whitney-red">The first floor features an open-concept great room that blends into the kitchen.</span> Each kitchen is designed with custom cabinets, a built-in pantry, serving island, and four-appliance package included in base pricing. Rear access to your two-stall garage is provided off the back of the kitchen, along with a guest bath.</p>
   </div>
 </section>
 
@@ -38,6 +36,8 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 </section>
 
 <section class="mw7 ph3 center">
+  <p><span class="whitney-red">The first floor features an open-concept great room that blends into the kitchen.</span> Each kitchen is designed with custom cabinets, a built-in pantry, serving island, and four-appliance package included in base pricing. Rear access to your two-stall garage is provided off the back of the kitchen, along with a guest bath.</p>
+
   <p><span class="whitney-red">The second floor contains the spacious master suite, complete with a walk-in shower bath and walk-in closet</span>, second bedroom and second tub/shower bathroom, and laundry hook-ups. (Washer and dryer not included in base pricing.)</p>
 
   <p>New from earlier phases, the third bedroom is located on the lower level. What—you mean it’s in the basement?! Sort of. Each basement will be raised four feet, providing windows and welcoming daylight to the lower level. Hookups for a future full bathroom in the lower level will be included.</p>
@@ -52,9 +52,9 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 </section>
 
 <ul class="mw8 center flex-ns list pl0 f3 tc mt0">
+  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">Striking modern exterior</li>
   <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">“Chicago-style” patio</li>
   <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">2-stall attached garage</li>
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">Striking modern exterior</li>
 </ul>
 
 <section class="mw8 center mb4">
@@ -93,7 +93,7 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 
 <div class="mt5 pv3 cover" style="background-image: url('/images/background-3.jpg');">
   <div class="mw9 center">
-    <h2 class="whitney-red tc ph3 f2">Explore the neighborhood</h2>
+    <h2 class="whitney-red tc ph3 f2 brother">Explore the neighborhood</h2>
     <div class="flex-ns mw9 ph3 center mb4">
       <div class="flex justify-center items-center card-alt w-30-ns f4 bg-white whitney-red mh2-ns mb3 mb0-ns pa3"><p>{{ page.address }}</p></div>
       <div class="card-alt flex w-100 h5 bg-white items-center justify-center gray">Map</div>

@@ -1,7 +1,7 @@
 ---
 layout: feature-page
 title: 901 Main
-subtitle: Reimagine your neighborhood
+subtitle: Modern apartments in a classic neighborhood
 header-image: 901-main-preview.jpg
 address: 901 Main Street<br>Green Bay, WI 54301
 ---
@@ -13,7 +13,7 @@ address: 901 Main Street<br>Green Bay, WI 54301
     <div class="fl-ns pl3-ns w-70-ns">
       <p class="mt0">Today’s amenities and plenty of natural light highlight these modern, urban apartments!</p>
 
-      <p>You’ll never guess that 901 Main is located at... 901 Main Street!  This three-story, mixed-use urban development offers two levels of one and two-bedroom apartments above first floor commercial space in the middle of the action. <span class="main-blue">Each unit offers residents inviting indoor and outdoor living spaces, in-unit, full-size washers and dryers, daylight in every bedroom (yes, a window!) and below-grade, climate-controlled parking.</span></p>
+      <p>901 Main is located at... 901 Main Street!  This three-story, mixed-use urban development offers two levels of one and two-bedroom apartments above first floor commercial space in the middle of the action. <span class="main-blue">Each unit offers residents inviting indoor and outdoor living spaces, in-unit, full-size washers and dryers, daylight in every bedroom (yes, a window!) and below-grade, climate-controlled parking.</span></p>
     </div>
   </div>
 </section>
@@ -93,7 +93,7 @@ address: 901 Main Street<br>Green Bay, WI 54301
 
 <div class="mt5 pv3 cover" style="background-image: url('/images/background-3.jpg');">
   <div class="mw9 center">
-    <h2 class="main-blue tc ph3 f2">Explore the neighborhood</h2>
+    <h2 class="main-blue tc ph3 f2 brother">Explore the neighborhood</h2>
     <div class="flex-ns mw9 ph3 center mb4">
       <div class="flex justify-center items-center card-alt w-30-ns f4 bg-white main-blue mh2-ns mb3 mb0-ns pa3"><p>{{ page.address }}</p></div>
       <div class="card-alt flex w-100 h5 bg-white items-center justify-center gray">Map</div>
