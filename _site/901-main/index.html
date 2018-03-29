@@ -133,25 +133,23 @@
 <section class="mw6 pa3 center overflow-visible">
   <h2 class="mt0 ph2 f2 mw6 center tc mb3 main-blue">Contact us today to get started</h2>
   <p>Contact us today for more details and/or to reserve your unit—we'll be in touch soon!</p>
-  <form id="contact-form">
-  <input type="hidden" name="_next" value="http://whitneypark.com/thank-you" />
+  <form action="/inquiry.php" method="POST">
   <div class="mb3">
     <label class="sr-only" for="name">Your name</label>
-    <input type="text" class="w-100 pa3 br1 bn shadow-6 josefin" id="name" name="name" placeholder="Name" />
+    <input required="" type="text" class="w-100 pa3 br1 bn shadow-6 josefin" id="name" name="name" placeholder="Name" />
   </div>
   <div class="mb3">
-    <label class="sr-only" for="email">Email address</label>
-    <input type="email" class="w-100 pa3 br1 bn shadow-6 josefin" id="email" name="email" placeholder="Email" />
+    <label class="sr-only" for="email">Your email address</label>
+    <input required="" class="w-100 pa3 br1 bn shadow-6 josefin" type="email" name="email" id="email" placeholder="Your email address" />
+  </div>
+  <div class="dn mb3">
+    <label class="sr-only" for="property">Property</label>
+    <input required="" class="w-100 pa3 br1 bn shadow-6 josefin" type="text" name="property" id="property" placeholder="Property" value="901 Main" />
   </div>
   <div class="mb3">
     <label class="sr-only" for="message">Message</label>
     <textarea id="message" class="w-100 pa3 br1 bn shadow-6 josefin" rows="3" name="message" placeholder="Message"></textarea>
   </div>
-  <div class="mb3">
-    <label for="test">Are you human? What's 2 + 2?</label>
-    <input type="text" class="w-100 pa3 br1 bn shadow-6 josefin" id="test" name="test" placeholder="Answer" />
-  </div>
-  <input class="sr-only" type="text" name="_gotcha" />
   <div class="tc mt4">
     <button type="submit" class="josefin dib br3 bg-white ph4 pv2 whitney-red link bn shadow-6">Send message</button>
   </div>

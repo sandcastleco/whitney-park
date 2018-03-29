@@ -90,7 +90,7 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 <section class="mw6 pa3 center overflow-visible">
   <h2 class="mt0 f2 mw6 center tc mb3 whitney-red">Contact us today to get started</h2>
   <p>Contact us below for more details or to schedule a tour. We'll be in touch soon!</p>
-  {% include contact-form.html %}
+  {% include contact-form.html property=page.title %}
 </section>
 
 <div class="mt5 pv3 cover" style="background-image: url('/images/background-3.jpg');">
