@@ -1,6 +1,6 @@
 <nav class="dark-gray">
-  <a class="dib link dark-gray" href="/">Home</a>
+  <a class="dib link card-alt ph3 pv2 bg-gray white" href="/">Home</a>
   {% for property in site.data.properties %}
-    / <a class="dib link dark-gray" href="{{ property.link }}">{{ property.name }}</a>
+    <a class="dib link card-alt bg-{{property.color}} white ph3 pv2" href="{{ property.link }}">{{ property.name }}</a>
   {% endfor %}
 </nav>

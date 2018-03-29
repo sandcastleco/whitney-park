@@ -1,4 +1,7 @@
 <footer class="ph3 pv4 tc">
-  {% include navbar.html %}
+  <a class="dib link dark-gray" href="/">Home</a>
+  {% for property in site.data.properties %}
+    / <a class="dib link dark-gray" href="{{ property.link }}">{{ property.name }}</a>
+  {% endfor %}
   <p class="mv0 gray">&copy;2018 <a class="link gray" href="http://gb-re.com" target="_blank">GB Real Estate Investments, LLC.</a></p>
 </footer>

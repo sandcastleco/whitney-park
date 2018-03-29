@@ -2,7 +2,7 @@
 layout: feature-page
 title: Whitney Park Townhomes
 subtitle: Your own home in the heart of Whitney Park
-header-image: townhomes-preview.jpg
+header-image: townhomes-exterior.jpg
 address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 ---
 
@@ -14,10 +14,10 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
   </div>
 </section>
 
-<ul class="mw8 center flex-ns list mt0 pl0 f3 tc">
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">2-story home with full basement</li>
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">3 bedrooms, 2 ½ baths</li>
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">1400 square feet</li>
+<ul class="mw7 center flex-ns list mt0 pl0 f3 tc">
+  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">2-story home with full basement</li>
+  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">3 bedrooms, 2 ½ baths</li>
+  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">1400 square feet</li>
 </ul>
 
 <section class="mw8 center">
@@ -51,22 +51,22 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
   </div>
 </section>
 
-<ul class="mw8 center flex-ns list pl0 f3 tc mt0">
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">Striking modern exterior</li>
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">“Chicago-style” patio</li>
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white whitney-red mh2 pa3">2-stall attached garage</li>
+<ul class="mw7 center flex-ns list pl0 f3 tc mt0">
+  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">Striking modern exterior</li>
+  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">“Chicago-style” patio</li>
+  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">2-stall attached garage</li>
 </ul>
 
 <section class="mw8 center mb4">
   <div class="card-container card-container-reverse card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/townhomes-roof-garage.jpg">
+        <img class="w-100" src="/images/townhomes-exterior.jpg">
       </div>
     </div>
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/townhomes-entrance.jpg">
+        <img class="w-100" src="/images/townhomes-patio.jpg">
       </div>
     </div>
   </div>

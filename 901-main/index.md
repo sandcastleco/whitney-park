@@ -2,7 +2,7 @@
 layout: feature-page
 title: 901 Main
 subtitle: Modern apartments in a classic neighborhood
-header-image: 901-main-preview.jpg
+header-image: 901-main-preview-2.jpg
 address: 901 Main Street<br>Green Bay, WI 54301
 ---
 
@@ -19,28 +19,22 @@ address: 901 Main Street<br>Green Bay, WI 54301
 </section>
 
 <ul class="mw8 center flex-ns list mt0 pl0 f3 tc">
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white main-blue mh2 pa3">1 - 2 bedroom apartments</li>
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white main-blue mh2 pa3">750 - 1050 square feet</li>
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white main-blue mh2 pa3">Underground parking</li>
+  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">1 - 2 bedroom apartments</li>
+  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">750 - 1050 square feet</li>
+  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">Underground parking</li>
 </ul>
 <ul class="mw8 center flex-ns list mt0 pl0 f3 tc">
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white main-blue mh2 pa3">Pet friendly</li>
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white main-blue mh2 pa3">Balconies</li>
-  <li class="flex justify-center items-center card-alt w-third-ns bg-white main-blue mh2 pa3">In-unit washer and dryer</li>
+  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">Pet friendly</li>
+  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">Balconies</li>
+  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">In-unit washer and dryer</li>
 </ul>
 
-<section class="mw8 center">
-  <div class="card-container card-container-wide">
-    <div class="card w-50-l">
-      <div class="card-content">
-        <img class="w-100" src="/images/901-main-preview.jpg">
-      </div>
-    </div>
-    <div class="card w-50-l">
-      <div class="card-content">
-        <img class="w-100" src="/images/901-main-preview.jpg">
-      </div>
-    </div>
+<section class="mw8 center flex items-end">
+  <div class="w-50-l">
+    <img class="w-100" src="/images/901-main-preview-3.jpg">
+  </div>
+  <div class="w-50-l">
+    <img class="w-100" src="/images/901-main-preview-4.jpg">
   </div>
 </section>
 
@@ -55,7 +49,7 @@ address: 901 Main Street<br>Green Bay, WI 54301
     </div>
   </div>
 </section>
-
+<!--
 <section class="mw8 center">
   <div class="card-container card-container-reverse card-container-wide">
     <div class="card w-50-l">
@@ -69,7 +63,7 @@ address: 901 Main Street<br>Green Bay, WI 54301
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="pv4 mt5 mb2 cover cf" style="background-image: url('/images/background-3.jpg');">
   <div class="mw7 center ph3">
