@@ -79,8 +79,10 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
     <div class="fl-ns pl3-ns w-70-ns">
       <p class="mt0"><span class="whitney-red">Pricing starts at $199,000.</span> And of course, <span class="whitney-red">no condo fees!</span> This is a townhome, constructed side-by-side in a row, meaning you own the land underneath your home and maintain your property as you would in any typical neighborhood. While condo-like in design and functionality, there are no common elements and no condo association—and therefore, no monthly maintenance fees. Your home and the grounds around it are yours to design and enjoy.</p>
     </div>
+  </div>
 
-    <div class="db w-100 ph3-ns"><img src="/images/townhomes-phase-4-floor-plan.png" alt="Townhomes floor plan"></div>
+  <div class="mw8 center">
+    <img src="/images/townhomes-phase-4-floor-plan.png" alt="Townhomes floor plan">
   </div>
 
 </section>
@@ -96,7 +98,7 @@ address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
     <h2 class="whitney-red tc ph3 f2 brother">Explore the neighborhood</h2>
     <div class="flex-ns mw9 ph3 center mb4">
       <div class="flex justify-center items-center card-alt w-30-ns f4 bg-white whitney-red mh2-ns mb3 mb0-ns pa3"><p>{{ page.address }}</p></div>
-      <div class="card-alt flex w-100 h5 bg-white items-center justify-center gray">Map</div>
+      <div class="card-alt flex w-100 h5 bg-white items-center justify-center gray"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1524.6714744889475!2d-88.00580264824579!3d44.51234120336304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e53645255603%3A0xd268a1d2e60d5d35!2s299+N+Van+Buren+St%2C+Green+Bay%2C+WI+54301!5e0!3m2!1sen!2sus!4v1522356696594" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
     </div>
     <div class="mw6 center ph3">
       <p class="mt0">These new units are located one block south of the existing Whitney Park Townhomes, in the 200 block of N. Van Buren Street. Each front will face east at the future Whitney School redevelopment, and is just south of Whitney Park and its new Whitney Bark Park.</p>
