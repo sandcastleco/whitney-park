@@ -86,7 +86,7 @@ color: main-blue
 
 <section class="mw6 pa3 center overflow-visible">
   <h2 class="mt0 ph2 f2 mw6 center tc mb3 main-blue">Contact us today to get started</h2>
-  <p>Contact us today for more details and/or to reserve your unit—we'll be in touch soon!</p>
+  <p>Coming in 2019—contact us below for more details. We'll be in touch soon!</p>
   {% include contact-form.html property=page.title %}
 </section>
 
