@@ -6,6 +6,7 @@ header-image: townhomes-exterior.jpg
 address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 description: "The whole package, from the roof to the basement. Your own home in the heart of Whitney Park. Learn more today!"
 social-image: townhomes-exterior.jpg
+color: whitney-red
 ---
 
 <section class="mw7 ph3 center cf mb2 mt4">
