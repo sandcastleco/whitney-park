@@ -73,7 +73,7 @@ color: main-blue
     <h2 class="fl-ns w-30-ns pr3-ns mt0 main-blue">Plans and pricing</h2>
 
     <div class="fl-ns pl3-ns w-70-ns">
-      <p class="mt0">Each one-bedroom unit is approximately 750 square feet, with a living room, kitchen, private bedroom and tub/shower bathroom.  Each two-bedroom unit is approximately 1,050 square feet with a large, shared tub/shower bathroom. Each unit contains full-size washers and dryers and includes a balcony for outdoor entertaining.</p>
+      <p class="mt0">Each one-bedroom unit is approximately 770 square feet, with a living room, kitchen, private bedroom and tub/shower bathroom.  Each two-bedroom unit is approximately 950 square feet with a large, shared tub/shower bathroom. Each unit contains full-size washers and dryers and includes a balcony for outdoor entertaining.</p>
 
       <p>Rents begin at $950 for one-bedroom units and $1,350 for two-bedroom units. Below-grade, climate-controlled parking is available for an additional fee on a first-rented, first-served basis.</p>
     </div>
