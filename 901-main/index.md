@@ -2,10 +2,10 @@
 layout: feature-page
 title: 901 Main
 subtitle: Modern apartments in a classic neighborhood
-header-image: 901-main-preview-2.jpg
+header-image: 901-main-preview-5.jpg
 address: 901 Main Street<br>Green Bay, WI 54301
 description: "Light, fresh, home. Modern apartments in the classic Whitney Park neighborhood. Learn more today!"
-social-image: 901-main-preview-2.jpg
+social-image: 901-main-preview-5.jpg
 color: main-blue
 ---
 

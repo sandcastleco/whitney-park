@@ -2,10 +2,10 @@
 layout: feature-page
 title: Whitney Park Townhomes
 subtitle: Your own home in the heart of Whitney Park
-header-image: townhomes-exterior.jpg
+header-image: townhomes-preview-3.jpg
 address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 description: "The whole package, from the roof to the basement. Your own home in the heart of Whitney Park. Learn more today!"
-social-image: townhomes-exterior.jpg
+social-image: townhomes-exterior-2.jpg
 color: whitney-red
 ---
 
@@ -64,7 +64,7 @@ color: whitney-red
   <div class="card-container card-container-reverse card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
-        <img class="w-100" src="/images/townhomes-exterior.jpg">
+        <img class="w-100" src="/images/townhomes-exterior-2.jpg">
       </div>
     </div>
     <div class="card w-50-l">
@@ -72,9 +72,6 @@ color: whitney-red
         <img class="w-100" src="/images/townhomes-patio.jpg">
       </div>
     </div>
-  </div>
-  <div class="mw7 center">
-    <script src="https://fast.wistia.com/embed/medias/1tmjmmescw.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:65.31% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1tmjmmescw videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
   </div>
 </section>
 
@@ -88,7 +85,7 @@ color: whitney-red
   </div>
 
   <div class="mw8 center">
-    <img src="/images/townhomes-phase-4-floor-plan.png" alt="Townhomes floor plan">
+    <img src="/images/townhomes-floor-plan-2.jpg" alt="Townhomes floor plan">
   </div>
 
 </section>
