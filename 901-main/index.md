@@ -33,12 +33,7 @@ color: main-blue
 </ul>
 
 <section class="mw8 center flex items-end">
-  <div class="w-50-l">
-    <img class="w-100" src="/images/901-main-preview-3.jpg">
-  </div>
-  <div class="w-50-l">
-    <img class="w-100" src="/images/901-main-preview-4.jpg">
-  </div>
+  <img class="w-100" src="/images/901-main-preview-6.jpg">
 </section>
 
 <section class="ph3 cf mt5 mb2">
