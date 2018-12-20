@@ -2,7 +2,7 @@
 layout: feature-page
 title: Whitney Park Townhomes
 subtitle: Your own home in the heart of Whitney Park
-header-image: townhomes-preview-3.jpg
+header-image: townhomes-exterior-2.jpg
 address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
 description: "The whole package, from the roof to the basement. Your own home in the heart of Whitney Park. Learn more today!"
 social-image: townhomes-exterior-2.jpg
@@ -19,9 +19,11 @@ color: whitney-red
 
 <ul class="mw7 center flex-ns list mt0 pl0 f3 tc">
   <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">2-story home with full basement</li>
-  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">3 bedrooms, 2 ½ baths</li>
-  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">1400 square feet</li>
+  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">3 bedrooms, 3 ½ baths</li>
+  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">1800 square feet</li>
 </ul>
+
+<hr/>
 
 <section class="mw8 center">
   <div class="card-container card-container-wide">
@@ -38,13 +40,17 @@ color: whitney-red
   </div>
 </section>
 
+<hr/>
+
 <section class="mw7 ph3 center">
   <p><span class="whitney-red">The first floor features an open-concept great room that blends into the kitchen.</span> Each kitchen is designed with custom cabinets, a built-in pantry, serving island, and four-appliance package included in base pricing. Rear access to your two-stall garage is provided off the back of the kitchen, along with a guest bath.</p>
 
   <p><span class="whitney-red">The second floor contains the spacious master suite, complete with a walk-in shower bath and walk-in closet</span>, second bedroom and second tub/shower bathroom, and laundry hook-ups. (Washer and dryer not included in base pricing.)</p>
 
-  <p>New from earlier phases, the third bedroom is located on the lower level. What—you mean it’s in the basement?! Sort of. Each basement will be raised four feet, providing windows and welcoming daylight to the lower level. Hookups for a future full bathroom in the lower level will be included.</p>
+  <p>New from earlier phases, the third bedroom is located on the lower level. What—you mean it’s in the basement?! Sort of. Each basement will be raised four feet, providing windows and welcoming daylight to the lower level. A full bathroom in the lower level is included.</p>
 </section>
+
+<hr/>
 
 <section class="mw7 ph3 center cf mb2 mt5">
   <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">Your home, outdoors.</h2>
@@ -59,6 +65,8 @@ color: whitney-red
   <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">“Chicago-style” patio</li>
   <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">2-stall attached garage</li>
 </ul>
+
+<hr/>
 
 <section class="mw8 center mb4">
   <div class="card-container card-container-reverse card-container-wide">
@@ -75,12 +83,14 @@ color: whitney-red
   </div>
 </section>
 
+<hr/>
+
 <section class="pv4 mt5 mb2 cover" style="background-image: url('/images/background-3.jpg');">
   <div class="mw7 center ph3">
     <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">Plans and pricing</h2>
 
     <div class="fl-ns pl3-ns w-70-ns">
-      <p class="mt0"><span class="whitney-red">Pricing starts at $199,000.</span> And of course, <span class="whitney-red">no condo fees!</span> This is a townhome, constructed side-by-side in a row, meaning you own the land underneath your home and maintain your property as you would in any typical neighborhood. While condo-like in design and functionality, there are no common elements and no condo association—and therefore, no monthly maintenance fees. Your home and the grounds around it are yours to design and enjoy.</p>
+      <p class="mt0"><span class="whitney-red">Pricing starts at $249,000.</span> And of course, <span class="whitney-red">no condo fees!</span> This is a townhome, constructed side-by-side in a row, meaning you own the land underneath your home and maintain your property as you would in any typical neighborhood. While condo-like in design and functionality, there are no common elements and no condo association—and therefore, no monthly maintenance fees. Your home and the grounds around it are yours to design and enjoy.</p>
     </div>
   </div>
 

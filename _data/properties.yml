@@ -1,11 +1,15 @@
 - name: Whitney Park Townhomes
+  nav-name: WHITNEY PARK TOWNHOMES
   description: Your own home in the heart of Whitney Park.
   link: /townhomes
   color: whitney-red
-  image: townhomes-preview-3.jpg
+  image: townhomes-exterior-2.jpg
+  cta: true
 
-- name: 901 Main
-  description: Modern apartments in a classic neighborhood.
+- name:
+  nav-name: 901 MAIN
+  description:
   link: /901-main
   color: main-blue
-  image: 901-main-preview-5.jpg
+  image: poster-image.jpg
+  cta:

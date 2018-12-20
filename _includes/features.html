@@ -2,11 +2,11 @@
   {% for highlight in site.data.highlights %}
   <div class="w-50-l mh3">
     <div class="card-alt">
-      <img class="db w-100 br3" src="/images/{{ highlight.image }}" alt="{{ highlight.image-description }}">
+      <img class="db w-100 br2" src="/images/{{ highlight.image }}" alt="{{ highlight.image-description }}">
     </div>
       <div class="mw5 center tc">
-        <h3 class="mb0 whitney-red f4">{{ highlight.title }}</h3>
-        <p>{{ highlight.description }}</p>
+        <h3 class="mb0 dark-grey f4">{{ highlight.title }}</h3>
+        <p class="gray">{{ highlight.description }}</p>
       </div>
   </div>
   {% endfor %}
