@@ -1,5 +1,5 @@
 .card-alt {
-  border-radius: 15px;
+  border-radius: 6px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
@@ -21,6 +21,7 @@
     border-right: 5px solid white;
     border-left: 5px solid white;
   }
+
   .card .bg-animate:hover {
     transform: scale(1.02) skewX(12deg);
   }
@@ -35,6 +36,7 @@
   .bg-animate:hover .bg-animate-content {
     transform: scale(.98);
     transition: transform .7s ease-in;
+
   }
   .bg-animate {
     background-size: 100% 100%;
