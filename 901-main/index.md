@@ -2,7 +2,7 @@
 layout: feature-page
 title: 901 Main
 subtitle: Modern apartments in a classic neighborhood
-header-image: 901-main-preview-5.jpg
+header-image: 901-exterior.jpg
 address: 901 Main Street<br>Green Bay, WI 54301
 description: "Light, fresh, home. Modern apartments in the classic Whitney Park neighborhood. Learn more today!"
 social-image: 901-main-preview-5.jpg
@@ -16,12 +16,16 @@ color: main-blue
     <div class="fl-ns pl3-ns w-70-ns">
       <p class="mt0">Today’s amenities and plenty of natural light highlight these modern, urban apartments!</p>
 
-      <p>901 Main is located at... 901 Main Street! This three-story, mixed-use urban development offers two levels of one and two-bedroom apartments above first floor commercial space in the middle of the action. <span class="main-blue">Each unit offers residents inviting indoor and outdoor living spaces, in-unit, full-size washers and dryers, daylight in every bedroom (yes, a window!) and below-grade, climate-controlled parking.</span></p>
+      <p>901 Main is located at... 901 Main Street! This three-story, mixed-use urban development offers two levels of one and two-bedroom apartments above first floor commercial space in the middle of the action.</p>
+
+      <p><span class="main-blue">Residents will enjoy inviting living spaces with plenty of daylight (including every bedroom!) and in-unit, full-size washers and dryers.  Residents will also be able to choose units that are appointed with upgrades including kitchen backsplashes and outdoor balconies.  On-site parking is provided.</span></p>
     </div>
   </div>
 </section>
 
-<ul class="mw8 center flex-ns list mt0 pl0 f3 tc">
+  <hr/>
+
+<!-- <ul class="mw8 center flex-ns list mt0 pl0 f3 tc">
   <li class="flex justify-center items-center w-third-ns bg-white main-blue ph2 mb0">1 - 2 bedroom apartments</li>
   <li class="flex justify-center items-center w-third-ns bg-white main-blue ph2 mb0">750 - 1050 square feet</li>
   <li class="flex justify-center items-center w-third-ns bg-white main-blue ph2 mb0">Underground parking</li>
@@ -30,11 +34,17 @@ color: main-blue
   <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">Pet friendly</li>
   <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">Balconies</li>
   <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">In-unit washer and dryer</li>
-</ul>
+</ul> -->
 
-<section class="mw8 center flex items-end">
-  <img class="w-100" src="/images/901-main-preview-6.jpg">
+<section class="mw8 pv3 center flex items-end">
+  <img class="w-80 center" src="/images/901-interior-1.jpg">
 </section>
+
+<section class="mw8 pv3 center flex items-end">
+  <img class="w-80 center" src="/images/901-interior-2.jpg">
+</section>
+
+  <hr/>
 
 <section class="ph3 cf mt5 mb2">
   <div class="mw7 center">
@@ -70,13 +80,13 @@ color: main-blue
     <div class="fl-ns pl3-ns w-70-ns">
       <p class="mt0">Each one-bedroom unit is approximately 770 square feet, with a living room, kitchen, private bedroom and tub/shower bathroom.  Each two-bedroom unit is approximately 950 square feet with a large, shared tub/shower bathroom. Each unit contains full-size washers and dryers and includes a balcony for outdoor entertaining.</p>
 
-      <p>Rents begin at $950 for one-bedroom units and $1,350 for two-bedroom units. Below-grade, climate-controlled parking is available for an additional fee on a first-rented, first-served basis.</p>
+      <p>Rents begin at $950 for one-bedroom units and $1,500 for two-bedroom units.  Indoor, climate-controlled parking is available for an additional fee, and on a first-rented, first-reserved basis.</p>
     </div>
   </div>
-  <div class="mw8 center">
+  <!-- <div class="mw8 center">
     <img src="/images/901-main-floor-plan-2.jpg" alt="901 Main floor plan">
     <img src="/images/901-main-floor-plan.jpg" alt="901 Main floor plan">
-  </div>  
+  </div> -->
 </section>
 
 <section class="mw6 pa3 center overflow-visible">
