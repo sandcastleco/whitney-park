@@ -6,13 +6,13 @@
     {% for property in site.data.properties %}
       <div class="flex-l items-center justify-center w-50-l white tc ma3 card-alt cover bg-animate pv4 pv5-ns ph4" style="background-image: url('/images/{{ property.image }}');">
           <a href="{{ property.link }}" class="card-link"</a>
-            {%if property.cta == true %}
+            <!-- >{%if property.cta == true %} -->
         <div class="bg-animate-content">
           <h3 class="mv0 f3 f2-l lh-title text-shadow brother center h2-highlight ttu"><a class="white link" href="{{ property.link }}">{{ property.name }}</a></h3>
           <p class="mt2 f5 f4-l mw5 center text-shadow-2 brother">{{ property.description }}</p>
           <p class="mv0 f4"><a class="dib br2 bg-white-80 ph4 pv1 brother {{ property.color}} link shadow-6" href="{{ property.link}}">LEARN MORE</a></p>
           </div>
-          {% endif %}
+          <!--  {% endif %} -->
       </div>
     {% endfor %}
     </div>
