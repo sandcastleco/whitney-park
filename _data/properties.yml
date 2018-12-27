@@ -6,9 +6,9 @@
   image: townhomes-exterior-2.jpg
   cta: true
 
-- name: Test
+- name:
   nav-name: 901 MAIN
-  description: a
+  description: 
   link: /901-main
   color: main-blue
   image: poster-image.jpg

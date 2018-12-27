@@ -25,17 +25,6 @@ color: main-blue
 
   <hr/>
 
-<!-- <ul class="mw8 center flex-ns list mt0 pl0 f3 tc">
-  <li class="flex justify-center items-center w-third-ns bg-white main-blue ph2 mb0">1 - 2 bedroom apartments</li>
-  <li class="flex justify-center items-center w-third-ns bg-white main-blue ph2 mb0">750 - 1050 square feet</li>
-  <li class="flex justify-center items-center w-third-ns bg-white main-blue ph2 mb0">Underground parking</li>
-</ul>
-<ul class="mw8 center flex-ns list mt0 pl0 f3 tc">
-  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">Pet friendly</li>
-  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">Balconies</li>
-  <li class="flex justify-center items-center w-third-ns bg-white main-blue mh2 pa3">In-unit washer and dryer</li>
-</ul> -->
-
 <section class="mw8 pv3 center flex items-end">
   <img class="w-80 center" src="/images/901-interior-1.jpg">
 </section>
@@ -83,10 +72,7 @@ color: main-blue
       <p>Rents begin at $950 for one-bedroom units and $1,500 for two-bedroom units.  Indoor, climate-controlled parking is available for an additional fee, and on a first-rented, first-reserved basis.</p>
     </div>
   </div>
-  <!-- <div class="mw8 center">
-    <img src="/images/901-main-floor-plan-2.jpg" alt="901 Main floor plan">
-    <img src="/images/901-main-floor-plan.jpg" alt="901 Main floor plan">
-  </div> -->
+
 </section>
 
 <section class="mw6 pa3 center overflow-visible">
