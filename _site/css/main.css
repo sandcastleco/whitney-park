@@ -97,6 +97,23 @@ h1 {
   border-radius: 6px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); }
 
+.card-alt-2 {
+  height: 300px;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden; }
+
+@media (max-width: 25em) {
+  .card {
+    height: 200px; }
+
+  .card-alt-2 {
+    height: 150px;
+    border-radius: 6px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden; } }
 @media (min-width: 60em) {
   body, section {
     overflow-x: hidden; }
@@ -114,6 +131,9 @@ h1 {
     transform: skewX(-12deg);
     border-right: 5px solid white;
     border-left: 5px solid white; }
+
+  .card-400 {
+    height: 400px; }
 
   .card .bg-animate:hover {
     transform: scale(1.02) skewX(12deg); }

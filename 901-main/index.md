@@ -33,6 +33,12 @@ color: main-blue
   <img class="w-80 center" src="/images/901-interior-2.jpg">
 </section>
 
+<section class="mw8 pv3 center flex items-end">
+<div class="fl-ns w-70-ns ph3 center">
+  <p class="mt0 main-blue">Each one-bedroom unit is approximately 770 square feet, with a living room, kitchen, private bedroom and tub/shower bathroom.  Each two-bedroom unit is approximately 950 square feet with a large, shared tub/shower bathroom. Each unit contains full-size washers and dryers and includes a balcony for outdoor entertaining.</p>
+</div>
+</section>
+
   <hr/>
 
 <section class="ph3 cf mt5 mb2">
@@ -47,7 +53,7 @@ color: main-blue
   </div>
 </section>
 
-<section class="mw7 center">
+<section class="mw7 mb4 center">
   <div class="card-container card-container-reverse card-container-wide">
     <div class="card w-50-l">
       <div class="card-content">
@@ -62,13 +68,13 @@ color: main-blue
   </div>
 </section>
 
+<hr/>
+
 <section class="pv4 mt5 mb2 cover cf" style="background-image: url('/images/background-3.jpg');">
   <div class="mw7 center ph3">
-    <h2 class="fl-ns w-30-ns pr3-ns mt0 main-blue">Plans and pricing</h2>
+    <h2 class="fl-ns w-30-ns pr3-ns mt3 main-blue">Plans and pricing</h2>
 
     <div class="fl-ns pl3-ns w-70-ns">
-      <p class="mt0">Each one-bedroom unit is approximately 770 square feet, with a living room, kitchen, private bedroom and tub/shower bathroom.  Each two-bedroom unit is approximately 950 square feet with a large, shared tub/shower bathroom. Each unit contains full-size washers and dryers and includes a balcony for outdoor entertaining.</p>
-
       <p>Rents begin at $950 for one-bedroom units and $1,500 for two-bedroom units.  Indoor, climate-controlled parking is available for an additional fee, and on a first-rented, first-reserved basis.</p>
     </div>
   </div>

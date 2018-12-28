@@ -1,14 +1,13 @@
-- name: Whitney Park Townhomes
+- name:
   nav-name: WHITNEY PARK TOWNHOMES
-  description: Your own home in the heart of Whitney Park.
+  description: 
   link: /townhomes
   color: whitney-red
-  image: townhomes-exterior-2.jpg
-  cta: true
+  image: poster-image-whitney.jpg
 
 - name:
   nav-name: 901 MAIN
-  description: 
+  description:
   link: /901-main
   color: main-blue
   image: poster-image.jpg

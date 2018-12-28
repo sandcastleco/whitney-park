@@ -2,19 +2,15 @@
   <div class="mw8 center">
     <h2 class="ph2 f2 mw6 center tc mb3 dark-grey brother">Which unit is right for you?</h2>
     <p class="mt0 gray f4 brother tc">Both developments opening in 2019.</p>
-    <div class="flex-l">
-    {% for property in site.data.properties %}
-      <div class="flex-l items-center justify-center w-50-l white tc ma3 card-alt cover bg-animate pv4 pv5-ns ph4" style="background-image: url('/images/{{ property.image }}');">
-          <a href="{{ property.link }}" class="card-link"</a>
-
-        <div class="bg-animate-content">
-          <h3 class="mv0 f3 f2-l lh-title text-shadow brother center h2-highlight ttu"><a class="white link" href="{{ property.link }}">{{ property.name }}</a></h3>
-          <p class="mt2 f5 f4-l mw5 center text-shadow-2 brother">{{ property.description }}</p>
-          <p class="mv0 f4"><a class="dib br2 bg-white-80 ph4 pv1 brother {{ property.color}} link shadow-6" href="{{ property.link}}">LEARN MORE</a></p>
-          </div>
-
+    <div class="flex-l mb4">
+      <a href="/townhomes" class="card-alt-2 mr2 cover items-center flex-l justify-center w-100-l">
+      <div class="flex-l items-center justify-center w-100-l white tc card-alt-2 cover bg-animate pv4 pv5-ns ph4" style="background-image: url('/images/poster-image-whitney.jpg');">
       </div>
-    {% endfor %}
+      </a>
+      <a href="/901-main" class="card-alt-2 cover ml2 items-center flex-l justify-center w-100-l">
+      <div class="flex-l items-center justify-center w-100-l white tc card-alt-2 cover bg-animate pv4 pv5-ns ph4" style="background-image: url('/images/poster-image.jpg');">
+      </div>
+      </a>
     </div>
   </div>
 </section>
