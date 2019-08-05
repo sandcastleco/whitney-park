@@ -1,13 +1,13 @@
 - name:
   nav-name: WHITNEY PARK TOWNHOMES
-  description: 
+  description:
   link: /townhomes
   color: whitney-red
-  image: poster-image-whitney.jpg
+  image: whitney-new.jpg
 
 - name:
   nav-name: 901 MAIN
   description:
   link: /901-main
   color: main-blue
-  image: poster-image.jpg
+  image: 901-new.jpg

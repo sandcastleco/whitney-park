@@ -13,6 +13,10 @@
   position: relative;
 }
 
+.nav-toggle:focus {
+  outline: none;
+}
+
 .nav-toggle .bar:before,
 .nav-toggle .bar:after {
   position: absolute;

@@ -19,19 +19,19 @@
   height: 100%; }
 
 .whitney-red {
-  color: #D16969; }
+  color: #555555; }
 
 .bg-whitney-red {
-  background-color: #D16969; }
+  background-color: #555555; }
 
 .highlight-whitney-red {
-  background-color: #f5dede; }
+  background-color: #a2a2a2; }
 
 .main-blue {
-  color: #6199E3; }
+  color: #C66C48; }
 
 .bg-main-blue {
-  background-color: #6199E3; }
+  background-color: #C66C48; }
 
 .dark-grey {
   color: #444444; }
@@ -50,6 +50,12 @@
 
 .brother {
   font-family: 'brother-1816', sans-serif; }
+
+.avenir {
+  font-family: 'Avenir Next Condensed', sans-serif; }
+
+.avenir-full {
+  font-family: 'Avenir Next', sans-serif; }
 
 ul li,
 ol li {
@@ -103,6 +109,9 @@ h1 {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden; }
+
+.custommaxheight {
+  max-height: 410px; }
 
 @media (max-width: 25em) {
   .card {
@@ -194,6 +203,9 @@ h1 {
 
 .nav-toggle .bar {
   position: relative; }
+
+.nav-toggle:focus {
+  outline: none; }
 
 .nav-toggle .bar:before,
 .nav-toggle .bar:after {

@@ -2,14 +2,14 @@
 layout: feature-page
 title: Whitney Park Townhomes
 subtitle: Your own home in the heart of Whitney Park
-header-image: townhomes-exterior-2.jpg
-address: 200 Block N. Van Buren St.<br>Green Bay, WI 54301
+header-image: whitney-top.jpg
+address: 200 Block N. Van Buren St. Green Bay, WI 54301
 description: "The whole package, from the roof to the basement. Your own home in the heart of Whitney Park. Learn more today!"
 social-image: townhomes-exterior-2.jpg
 color: whitney-red
 ---
 
-<section class="mw7 ph3 center cf mb2 mt4">
+<section class="mw7 ph3 center cf mb2 mt5">
   <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">The whole package, from the roof to the basement.</h2>
 
   <div class="fl-ns pl3-ns w-70-ns">
@@ -18,9 +18,9 @@ color: whitney-red
 </section>
 
 <ul class="mw7 center flex-ns list mt0 pl0 f3 tc">
-  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">2-story home with full basement</li>
-  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">3 bedrooms, 3 ½ baths</li>
-  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">1800 square feet</li>
+  <li class="card-alt flex justify-center items-center w-third-ns bg-white whitney-red pa3 ma3">2-story home + full basement</li>
+  <li class="card-alt flex justify-center items-center w-third-ns bg-white whitney-red pa3 ma3">3 bedrooms, <br/>3 ½ baths</li>
+  <li class="card-alt flex justify-center items-center w-third-ns bg-white whitney-red pa3 ma3">Spacious, <br/>1800 sq feet</li>
 </ul>
 
 <hr/>
@@ -61,59 +61,84 @@ color: whitney-red
 </section>
 
 <ul class="mw7 center flex-ns list pl0 f3 tc mt0">
-  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">Striking modern exterior</li>
-  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">“Chicago-style” patio</li>
-  <li class="flex justify-center items-center w-third-ns bg-white whitney-red pa2">2-stall attached garage</li>
+  <li class="card-alt flex justify-center items-center w-third-ns bg-white whitney-red pa3 ma3">Striking modern exterior</li>
+  <li class="card-alt flex justify-center items-center w-third-ns bg-white whitney-red pa3 ma3">“Chicago-style” patio</li>
+  <li class="card-alt flex justify-center items-center w-third-ns bg-white whitney-red pa3 ma3">2-stall attached garage</li>
 </ul>
 
 <hr/>
 
 <section class="mw8 center mb4">
+
   <div class="card-container card-container-reverse card-container-wide">
-    <div class="card w-50-l">
+
+    <div class="card w-50-l custommaxheight">
       <div class="card-content">
-        <img class="w-100" src="/images/townhomes-exterior-2.jpg">
+        <img class="w-100" src="/images/whitney-top.jpg">
       </div>
     </div>
+
     <div class="card w-50-l">
       <div class="card-content">
         <img class="w-100" src="/images/townhomes-patio.jpg">
       </div>
     </div>
+
   </div>
+
+</section>
+
+<section class="mw8 center mb4">
+
+  <div class="card-container card-container-wide">
+
+    <div class="card w-50-l">
+      <div class="card-content">
+        <img class="w-100" src="/images/whitney-exterior-1.jpg">
+      </div>
+    </div>
+
+    <div class="card w-50-l">
+      <div class="card-content">
+        <img class="w-100" src="/images/whitney-exterior-2.jpg">
+      </div>
+    </div>
+
+  </div>
+
 </section>
 
 <hr/>
 
 <section class="pv4 mt5 mb2 cover" style="background-image: url('/images/background-3.jpg');">
-  <div class="mw7 center ph3">
+  <div class="mw7 center ph3 mt4">
     <h2 class="fl-ns w-30-ns pr3-ns mt0 whitney-red">Plans and pricing</h2>
 
-    <div class="fl-ns pl3-ns w-70-ns">
-      <p class="mt0"><span class="whitney-red">Pricing starts at $249,000.</span> And of course, <span class="whitney-red">no condo fees!</span> This is a townhome, constructed side-by-side in a row, meaning you own the land underneath your home and maintain your property as you would in any typical neighborhood. While condo-like in design and functionality, there are no common elements and no condo association—and therefore, no monthly maintenance fees. Your home and the grounds around it are yours to design and enjoy.</p>
+    <div class="fl-ns pl3-ns w-70-ns mb4">
+      <p class="mt0"><span class="whitney-red">Pricing starts at $259,000.</span> And of course, <span class="whitney-red">no condo fees!</span> This is a townhome, constructed side-by-side in a row, meaning you own the land underneath your home and maintain your property as you would in any typical neighborhood. While condo-like in design and functionality, there are no common elements and no condo association—and therefore, no monthly maintenance fees. Your home and the grounds around it are yours to design and enjoy.</p>
     </div>
   </div>
 
-  <div class="mw8 center">
+  <div class="mw8 mh5 center">
     <img src="/images/townhomes-floor-plan-2.jpg" alt="Townhomes floor plan">
   </div>
 
 </section>
 
 <section class="mw6 pa3 center overflow-visible">
-  <h2 class="mt0 f2 mw6 center tc mb3 whitney-red">Contact us today to get started</h2>
-  <p>Coming in 2019—contact us below for more details. We'll be in touch soon!</p>
+  <h2 class="mt4 f2 mw6 center tc mb3 whitney-red avenir">All units are currently sold.</h2>
+  <p class="center tc">Additional developments are coming in the future! Contact us with questions to find out more details...</p>
   {% include contact-form.html property=page.title %}
 </section>
 
 <div class="mt5 pv3 cover" style="background-image: url('/images/background-3.jpg');">
   <div class="mw9 center">
-    <h2 class="whitney-red tc ph3 f2 brother">Explore the neighborhood</h2>
+    <h2 class="whitney-red tc ph2 f2 avenir">Explore the neighborhood</h2>
+    <p class="tc">{{ page.address }}</p>
     <div class="flex-ns mw9 ph3 center mb4">
-      <div class="flex justify-center items-center card-alt w-30-ns f4 bg-white whitney-red mh2-ns mb3 mb0-ns pa3"><p>{{ page.address }}</p></div>
-      <div class="card-alt flex w-100 h5 bg-white items-center justify-center gray"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1524.6714744889475!2d-88.00580264824579!3d44.51234120336304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e53645255603%3A0xd268a1d2e60d5d35!2s200+N+Van+Buren+St%2C+Green+Bay%2C+WI+54301!5e0!3m2!1sen!2sus!4v1522356696594" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <div class="card-alt flex w-100 h5 bg-white items-center justify-center gray mh5"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1524.6714744889475!2d-88.00580264824579!3d44.51234120336304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e53645255603%3A0xd268a1d2e60d5d35!2s200+N+Van+Buren+St%2C+Green+Bay%2C+WI+54301!5e0!3m2!1sen!2sus!4v1522356696594" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
     </div>
-    <div class="mw6 center ph3">
+    <div class="mw7 center ph3">
       <p class="mt0">These new units are located one block south of the existing Whitney Park Townhomes, in the 200 block of N. Van Buren Street. Each front will face east at the future Whitney School redevelopment, and is just south of Whitney Park and its new Whitney Bark Park.</p>
     </div>
     {% include features.html %}

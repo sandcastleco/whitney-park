@@ -11,6 +11,10 @@
   overflow: hidden;
 }
 
+.custommaxheight {
+  max-height: 410px;
+}
+
 @media(max-width: 25em){
   .card {
     height: 200px;
