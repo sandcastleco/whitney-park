@@ -1,5 +1,5 @@
 ---
-layout: feature-page
+layout: feature-page-whitney
 title: Whitney Park Townhomes
 subtitle: Your own home in the heart of Whitney Park
 header-image: whitney-top.jpg
@@ -125,15 +125,17 @@ color: whitney-red
 
 </section>
 
-<section class="mw6 pa3 center overflow-visible">
-  <h2 class="mt4 f2 mw6 center tc mb3 whitney-red avenir">All units are currently sold.</h2>
+<section class="mw8 pa3 center overflow-visible">
+  <h2 class="mt4 f2 mw8 center tc mb3 whitney-red josefin">ALL UNITS ARE CURRENTLY SOLD</h2>
   <p class="center tc">Additional developments are coming in the future! Contact us with questions to find out more details...</p>
+  <div class="mw6 center">
   {% include contact-form.html property=page.title %}
+  </div>
 </section>
 
 <div class="mt5 pv3 cover" style="background-image: url('/images/background-3.jpg');">
   <div class="mw9 center">
-    <h2 class="whitney-red tc ph2 f2 avenir">Explore the neighborhood</h2>
+    <h2 class="whitney-red tc ph2 f2 josefin">EXPLORE THE NEIGHBORHOOD</h2>
     <p class="tc">{{ page.address }}</p>
     <div class="flex-ns mw9 ph3 center mb4">
       <div class="card-alt flex w-100 h5 bg-white items-center justify-center gray mh5"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1524.6714744889475!2d-88.00580264824579!3d44.51234120336304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e53645255603%3A0xd268a1d2e60d5d35!2s200+N+Van+Buren+St%2C+Green+Bay%2C+WI+54301!5e0!3m2!1sen!2sus!4v1522356696594" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
